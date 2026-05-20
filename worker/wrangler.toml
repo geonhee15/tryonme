@@ -1,0 +1,20 @@
+name = "tryonme-api"
+main = "src/index.js"
+compatibility_date = "2026-05-20"
+
+# Fill in after creating the KV namespace (see README).
+# wrangler kv:namespace create RATE_LIMIT
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "REPLACE_WITH_KV_ID"
+
+# Custom domain — bind tryonme-api.kimkim.io to this Worker in the
+# Cloudflare dashboard (Workers & Pages → tryonme-api → Settings → Triggers).
+# Or uncomment below if kimkim.io is on the same Cloudflare account:
+#
+# [[routes]]
+# pattern = "tryonme-api.kimkim.io/*"
+# zone_name = "kimkim.io"
+
+# Secrets (set via `wrangler secret put FASHN_API_KEY`):
+#   FASHN_API_KEY — your FASHN AI bearer token

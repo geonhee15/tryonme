@@ -13,13 +13,34 @@
 3. 카탈로그에 없으면 직접 설명도 OK.
 4. **입혀보기** 버튼을 누르면 합성된 결과가 나옵니다.
 
-## AI 엔진
+## AI 엔진 — 3가지 모드
 
-기본은 **FASHN AI · `tryon-v1.6`** — 2025–2026 현재 시점의 SOTA 가상 피팅 모델입니다. (대안: Replicate IDM-VTON, fal.ai OOTDiffusion 등도 함수 시그니처 호환.)
+엔진은 **FASHN AI · `tryon-v1.6`** (2025–2026 시점의 상용 가상 피팅 SOTA). 대안 (IDM-VTON, OOTDiffusion 등)도 함수 시그니처 호환.
 
-- 우측 상단의 ⚙ **AI 설정** 버튼 → FASHN API 키 입력 → localStorage에 저장 (서버 미경유).
-- 키 없으면 자동으로 **데모 모드**로 폴백 (사진 + 제품 썸네일 캔버스 합성).
-- 여러 벌 선택 시 직렬 체이닝: 1번 옷 → 그 결과 위에 2번 옷 → ...
+| 모드 | 트리거 | 비용 / 한도 |
+|---|---|---|
+| 🟢 **무료 (public)** | 방문자 기본값 — 페이지 로드 시 자동 활성 | IP당 5회/일 (호스트가 부담) |
+| 🔴 **개인 (personal)** | 우상단 ⚙ → FASHN 키 입력 | 무제한 (본인 FASHN 계정에서 차감) |
+| ⚪ **데모 (demo)** | 프록시 미배포 시 자동 폴백 | 무료 (캔버스 합성만) |
+
+여러 벌 선택 시 직렬 체이닝: 1번 옷 입힌 결과 → 2번 옷 입력 model_image → ...
+
+### 무료 모드를 켜려면 — Cloudflare Worker 프록시 배포
+
+브라우저에서 키를 안 노출하려면 얇은 프록시가 필요합니다. `worker/` 디렉토리에 다 들어있어요:
+
+```bash
+cd worker
+npm install
+npx wrangler login
+npx wrangler kv:namespace create RATE_LIMIT   # 출력된 id를 wrangler.toml에 붙여넣기
+npx wrangler secret put FASHN_API_KEY         # FASHN 키 붙여넣기
+npx wrangler deploy
+```
+
+배포되면 프론트가 `tryonme-api.kimkim.io/v1/quota`를 자동 핑하고 → 살아있으면 **무료 모드** 라벨 + IP 쿼터 표시. 자세한 설정은 [worker/README.md](worker/README.md) 참고.
+
+> 프록시가 없어도 사이트는 동작합니다 (데모 모드). 사용자가 자기 키를 넣으면 그쪽 모드로 자동 전환.
 
 키 발급: [app.fashn.ai/api](https://app.fashn.ai/api)
 

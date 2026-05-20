@@ -8,7 +8,8 @@
         "Nike",
         "polo"
       ],
-      "image": "https://static.nike.com/a/images/t_default/703c875b-dda9-4993-aac4-69cb577e824b/M+NK+CLUB+OS+STRIPE+POLO.png"
+      "image": "https://static.nike.com/a/images/t_default/703c875b-dda9-4993-aac4-69cb577e824b/M+NK+CLUB+OS+STRIPE+POLO.png",
+      "category": "tops"
     },
     {
       "id": "nike-dcOnNeuS",
@@ -18,7 +19,8 @@
         "Nike",
         "jacket"
       ],
-      "image": "https://static.nike.com/a/images/t_default/524c2909-e905-4258-ba97-591a7aa18f58/M+NK+AIR+WR+TRK+JKT.png"
+      "image": "https://static.nike.com/a/images/t_default/524c2909-e905-4258-ba97-591a7aa18f58/M+NK+AIR+WR+TRK+JKT.png",
+      "category": "tops"
     },
     {
       "id": "nike-veAKu4AN",
@@ -27,7 +29,8 @@
       "tags": [
         "Nike"
       ],
-      "image": "https://static.nike.com/a/images/t_default/eaafc203-5cd0-4220-a181-1cdc6f896033/M+NK+DF+COF+JSY+LS+FR+SP26.png"
+      "image": "https://static.nike.com/a/images/t_default/eaafc203-5cd0-4220-a181-1cdc6f896033/M+NK+DF+COF+JSY+LS+FR+SP26.png",
+      "category": "tops"
     },
     {
       "id": "nike-uE60QqJZ",
@@ -37,7 +40,8 @@
         "Nike",
         "jacket"
       ],
-      "image": "https://static.nike.com/a/images/t_default/af1fa620-1c50-41c4-924b-f0058fe7ed26/M+NSW+AIR+MAX+95+WVN+JKT.png"
+      "image": "https://static.nike.com/a/images/t_default/af1fa620-1c50-41c4-924b-f0058fe7ed26/M+NSW+AIR+MAX+95+WVN+JKT.png",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E483924-000",
@@ -46,7 +50,8 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483924/item/krgoods_57_483924_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483924/item/krgoods_57_483924_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E465185-000",
@@ -58,7 +63,8 @@
         "AIRism",
         "코튼"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465185/item/krgoods_70_465185_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465185/item/krgoods_70_465185_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E424873-000",
@@ -68,7 +74,8 @@
         "크루넥",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/424873/item/krgoods_10_424873_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/424873/item/krgoods_10_424873_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482299-000",
@@ -77,7 +84,8 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482299/item/krgoods_08_482299_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482299/item/krgoods_08_482299_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E422992-000",
@@ -87,14 +95,16 @@
         "크루넥",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/422992/item/krgoods_00_422992_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/422992/item/krgoods_00_422992_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E489013-000",
       "name": "DRY-EX T(컬러블록)",
       "brand": "Uniqlo",
       "tags": [],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/489013/item/krgoods_67_489013_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/489013/item/krgoods_67_489013_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E455365-000",
@@ -105,14 +115,16 @@
         "수피마",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/455365/item/krgoods_63_455365_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/455365/item/krgoods_63_455365_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E483970-000",
       "name": "DRY-EX T(프린트)",
       "brand": "Uniqlo",
       "tags": [],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483970/item/krgoods_03_483970_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483970/item/krgoods_03_483970_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "nike-PGK3zSEl",
@@ -121,7 +133,8 @@
       "tags": [
         "Nike"
       ],
-      "image": "https://static.nike.com/a/images/t_default/5479916c-4b4a-4ea9-8493-9a9490ee2a8d/M+NK+CLUB+BSBL+JSY+AMSPT.png"
+      "image": "https://static.nike.com/a/images/t_default/5479916c-4b4a-4ea9-8493-9a9490ee2a8d/M+NK+CLUB+BSBL+JSY+AMSPT.png",
+      "category": "tops"
     },
     {
       "id": "nike-k99ZFpgF",
@@ -130,7 +143,8 @@
       "tags": [
         "Nike"
       ],
-      "image": "https://static.nike.com/a/images/t_default/e252077f-bc68-494e-a803-9a0ee0041a94/M+NSW+TEE+LSE+LS+PREM+ESS+SUST.png"
+      "image": "https://static.nike.com/a/images/t_default/e252077f-bc68-494e-a803-9a0ee0041a94/M+NSW+TEE+LSE+LS+PREM+ESS+SUST.png",
+      "category": "tops"
     },
     {
       "id": "stüssy-7430705348704",
@@ -139,7 +153,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115939_VMWA_3.jpg?v=1762448014"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115939_VMWA_3.jpg?v=1762448014",
+      "category": "tops"
     },
     {
       "id": "stüssy-7631871344736",
@@ -148,7 +163,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1905178_INDO_1.jpg?v=1773345556"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1905178_INDO_1.jpg?v=1773345556",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E487962-000",
@@ -157,7 +173,8 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487962/item/krgoods_56_487962_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487962/item/krgoods_56_487962_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E465761-000",
@@ -167,14 +184,16 @@
         "크루넥",
         "리넨"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465761/item/krgoods_42_465761_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465761/item/krgoods_42_465761_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482766-000",
       "name": "와플헨리넥T(긴팔)",
       "brand": "Uniqlo",
       "tags": [],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482766/item/krgoods_32_482766_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482766/item/krgoods_32_482766_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E465187-000",
@@ -184,7 +203,8 @@
         "크루넥",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465187/item/krgoods_64_465187_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465187/item/krgoods_64_465187_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E457517-000",
@@ -195,7 +215,8 @@
         "코튼",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/457517/item/krgoods_53_457517_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/457517/item/krgoods_53_457517_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484508-000",
@@ -207,14 +228,16 @@
         "코튼",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484508/item/krgoods_69_484508_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484508/item/krgoods_69_484508_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484079-000",
       "name": "탱크탑",
       "brand": "Uniqlo",
       "tags": [],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484079/item/krgoods_00_484079_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484079/item/krgoods_00_484079_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485454-000",
@@ -223,7 +246,8 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485454/item/krgoods_30_485454_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485454/item/krgoods_30_485454_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "stüssy-7627509530720",
@@ -232,7 +256,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1905178_PINE_1.jpg?v=1773158536"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1905178_PINE_1.jpg?v=1773158536",
+      "category": "tops"
     },
     {
       "id": "stüssy-7627509465184",
@@ -241,7 +266,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1905178_NATL_1.jpg?v=1773158504"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1905178_NATL_1.jpg?v=1773158504",
+      "category": "tops"
     },
     {
       "id": "stüssy-7627508711520",
@@ -250,7 +276,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1905178_FBLA_1.jpg?v=1773345451"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1905178_FBLA_1.jpg?v=1773345451",
+      "category": "tops"
     },
     {
       "id": "stüssy-7627507826784",
@@ -259,7 +286,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1905178_BERR_1.jpg?v=1773158491"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1905178_BERR_1.jpg?v=1773158491",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484457-000",
@@ -268,14 +296,16 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484457/item/krgoods_09_484457_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484457/item/krgoods_09_484457_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E465189-000",
       "name": "드라이립탱크탑",
       "brand": "Uniqlo",
       "tags": [],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465189/item/krgoods_08_465189_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465189/item/krgoods_08_465189_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484203-000",
@@ -284,7 +314,8 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484203/item/krgoods_00_484203_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484203/item/krgoods_00_484203_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E476528-000",
@@ -294,7 +325,8 @@
         "크루넥",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/476528/item/goods_09_476528_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/476528/item/goods_09_476528_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482301-000",
@@ -304,7 +336,8 @@
         "v넥",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482301/item/krgoods_00_482301_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482301/item/krgoods_00_482301_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486739-000",
@@ -313,7 +346,8 @@
       "tags": [
         "스웨트셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486739/item/krgoods_02_486739_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486739/item/krgoods_02_486739_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E475376-000",
@@ -323,7 +357,8 @@
         "v넥",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475376/item/krgoods_57_475376_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475376/item/krgoods_57_475376_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484001-000",
@@ -332,7 +367,8 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484001/item/krgoods_03_484001_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484001/item/krgoods_03_484001_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "stüssy-7461174411360",
@@ -341,7 +377,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115905_WHIT_3.jpg?v=1778691767"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115905_WHIT_3.jpg?v=1778691767",
+      "category": "tops"
     },
     {
       "id": "stüssy-7461173985376",
@@ -350,7 +387,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115905_BLUE_3.jpg?v=1778691752"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115905_BLUE_3.jpg?v=1778691752",
+      "category": "tops"
     },
     {
       "id": "stüssy-7461173166176",
@@ -359,7 +397,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115902_ORAN_3.jpg?v=1778691738"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115902_ORAN_3.jpg?v=1778691738",
+      "category": "tops"
     },
     {
       "id": "stüssy-7461170544736",
@@ -368,7 +407,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115902_BLUE_3.jpg?v=1778691707"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115902_BLUE_3.jpg?v=1778691707",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486744-000",
@@ -377,7 +417,8 @@
       "tags": [
         "스웨트셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486744/item/krgoods_59_486744_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486744/item/krgoods_59_486744_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E487505-000",
@@ -387,7 +428,8 @@
         "AIRism",
         "코튼"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487505/item/krgoods_00_487505_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487505/item/krgoods_00_487505_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486741-000",
@@ -396,7 +438,8 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486741/item/krgoods_53_486741_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486741/item/krgoods_53_486741_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485455-000",
@@ -405,7 +448,8 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485455/item/krgoods_05_485455_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485455/item/krgoods_05_485455_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E487838-000",
@@ -414,7 +458,8 @@
       "tags": [
         "스웨트셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487838/item/krgoods_03_487838_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487838/item/krgoods_03_487838_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E465193-000",
@@ -425,7 +470,8 @@
         "AIRism",
         "코튼"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465193/item/krgoods_00_465193_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465193/item/krgoods_00_465193_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E483596-000",
@@ -435,7 +481,8 @@
         "코튼",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483596/item/krgoods_59_483596_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483596/item/krgoods_59_483596_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E488735-000",
@@ -445,7 +492,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488735/item/krgoods_09_488735_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488735/item/krgoods_09_488735_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "stüssy-7461169004640",
@@ -454,7 +502,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115900_PINK_3.jpg?v=1778691693"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115900_PINK_3.jpg?v=1778691693",
+      "category": "tops"
     },
     {
       "id": "stüssy-7461168906336",
@@ -463,7 +512,8 @@
       "tags": [
         "Stüssy"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115900_OLIV_3.jpg?v=1778691678"
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115900_OLIV_3.jpg?v=1778691678",
+      "category": "tops"
     },
     {
       "id": "aimé-leon-dore-7564818677857",
@@ -472,7 +522,8 @@
       "tags": [
         "Aimé Leon Dore"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9dad4dc7f869fb9dad4de71.3672747169fb9dad4de71_073272b4-0a92-4e0c-ad4c-b1a9f8adb7d4.jpg?v=1779218152"
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9dad4dc7f869fb9dad4de71.3672747169fb9dad4de71_073272b4-0a92-4e0c-ad4c-b1a9f8adb7d4.jpg?v=1779218152",
+      "category": "tops"
     },
     {
       "id": "aimé-leon-dore-7546645807201",
@@ -481,7 +532,8 @@
       "tags": [
         "Aimé Leon Dore"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fba10b60124469fba10b6036c.7328407169fba10b6036c.jpg?v=1778182851"
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fba10b60124469fba10b6036c.7328407169fba10b6036c.jpg?v=1778182851",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486103-000",
@@ -491,7 +543,8 @@
         "AIRism",
         "코튼"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486103/item/krgoods_09_486103_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486103/item/krgoods_09_486103_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E488734-000",
@@ -500,7 +553,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488734/item/krgoods_00_488734_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488734/item/krgoods_00_488734_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486745-000",
@@ -509,7 +563,8 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486745/item/krgoods_01_486745_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486745/item/krgoods_01_486745_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482773-000",
@@ -518,7 +573,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482773/item/krgoods_69_482773_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482773/item/krgoods_69_482773_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486743-000",
@@ -527,7 +583,8 @@
       "tags": [
         "크루넥"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486743/item/krgoods_00_486743_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486743/item/krgoods_00_486743_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E480054-000",
@@ -537,7 +594,8 @@
         "AIRism",
         "코튼"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/480054/item/krgoods_01_480054_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/480054/item/krgoods_01_480054_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E488733-000",
@@ -546,7 +604,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488733/item/krgoods_58_488733_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488733/item/krgoods_58_488733_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484776-000",
@@ -555,7 +614,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484776/item/krgoods_09_484776_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484776/item/krgoods_09_484776_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "aimé-leon-dore-7546645512289",
@@ -564,7 +624,8 @@
       "tags": [
         "Aimé Leon Dore"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9dcdd964e869fb9dcdd9807.5882969269fb9dcdd9807.jpg?v=1778182825"
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9dcdd964e869fb9dcdd9807.5882969269fb9dcdd9807.jpg?v=1778182825",
+      "category": "tops"
     },
     {
       "id": "aimé-leon-dore-7546645217377",
@@ -573,7 +634,8 @@
       "tags": [
         "Aimé Leon Dore"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9cb6b4ba0669fb9cb6b4da5.6207664069fb9cb6b4da5.jpg?v=1778182799"
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9cb6b4ba0669fb9cb6b4da5.6207664069fb9cb6b4da5.jpg?v=1778182799",
+      "category": "tops"
     },
     {
       "id": "aimé-leon-dore-7547863564385",
@@ -582,7 +644,8 @@
       "tags": [
         "Aimé Leon Dore"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9baae611b069fb9baae63a2.7221990869fb9baae63a2.jpg?v=1778252358"
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9baae611b069fb9baae63a2.7221990869fb9baae63a2.jpg?v=1778252358",
+      "category": "tops"
     },
     {
       "id": "aimé-leon-dore-7546645938273",
@@ -591,7 +654,8 @@
       "tags": [
         "Aimé Leon Dore"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fe240037905869fe240037ae6.2391773769fe240037ae6.jpg?v=1778263056"
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fe240037905869fe240037ae6.2391773769fe240037ae6.jpg?v=1778263056",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485058-000",
@@ -600,7 +664,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485058/item/krgoods_30_485058_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485058/item/krgoods_30_485058_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482756-000",
@@ -609,7 +674,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482756/item/krgoods_00_482756_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482756/item/krgoods_00_482756_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485036-000",
@@ -618,7 +684,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485036/item/krgoods_00_485036_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485036/item/krgoods_00_485036_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486159-000",
@@ -627,14 +694,16 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486159/item/krgoods_00_486159_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486159/item/krgoods_00_486159_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484226-000",
       "name": "프런트오픈셸탑T(슬리브리스)",
       "brand": "Uniqlo",
       "tags": [],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484226/item/krgoods_54_484226_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484226/item/krgoods_54_484226_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482751-000",
@@ -644,7 +713,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482751/item/krgoods_00_482751_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482751/item/krgoods_00_482751_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E487966-000",
@@ -653,7 +723,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487966/item/krgoods_07_487966_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487966/item/krgoods_07_487966_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485054-000",
@@ -663,7 +734,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485054/item/krgoods_66_485054_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485054/item/krgoods_66_485054_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "aimé-leon-dore-7547864219745",
@@ -672,7 +744,8 @@
       "tags": [
         "Aimé Leon Dore"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9bab24c8b169fb9bab24e79.1375597169fb9bab24e79.jpg?v=1778254398"
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9bab24c8b169fb9bab24e79.1375597169fb9bab24e79.jpg?v=1778254398",
+      "category": "tops"
     },
     {
       "id": "aimé-leon-dore-7547863957601",
@@ -681,7 +754,8 @@
       "tags": [
         "Aimé Leon Dore"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9bab31271069fb9bab31472.7993521069fb9bab31472.jpg?v=1778252369"
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9bab31271069fb9bab31472.7993521069fb9bab31472.jpg?v=1778252369",
+      "category": "tops"
     },
     {
       "id": "kith-8286408179840",
@@ -690,7 +764,8 @@
       "tags": [
         "Kith"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM034801-415-Front.jpg?v=1778621562"
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM034801-415-Front.jpg?v=1778621562",
+      "category": "tops"
     },
     {
       "id": "kith-8286397005952",
@@ -699,7 +774,8 @@
       "tags": [
         "Kith"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM011256-906-Front.jpg?v=1778620836"
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM011256-906-Front.jpg?v=1778620836",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486158-000",
@@ -708,7 +784,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486158/item/krgoods_62_486158_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486158/item/krgoods_62_486158_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485053-000",
@@ -717,7 +794,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485053/item/krgoods_16_485053_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485053/item/krgoods_16_485053_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482757-000",
@@ -727,14 +805,16 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482757/item/krgoods_00_482757_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482757/item/krgoods_00_482757_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484228-000",
       "name": "포인텔탱크탑(프린트)",
       "brand": "Uniqlo",
       "tags": [],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484228/item/krgoods_01_484228_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484228/item/krgoods_01_484228_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485035-000",
@@ -744,7 +824,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485035/item/krgoods_08_485035_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485035/item/krgoods_08_485035_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486160-000",
@@ -754,7 +835,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486160/item/krgoods_69_486160_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486160/item/krgoods_69_486160_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485059-000",
@@ -763,7 +845,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485059/item/krgoods_69_485059_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485059/item/krgoods_69_485059_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486162-000",
@@ -773,7 +856,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486162/item/krgoods_01_486162_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486162/item/krgoods_01_486162_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "kith-8286408114304",
@@ -782,7 +866,8 @@
       "tags": [
         "Kith"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM011237-207-Front.jpg?v=1778621557"
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM011237-207-Front.jpg?v=1778621557",
+      "category": "tops"
     },
     {
       "id": "kith-8286408212608",
@@ -791,7 +876,8 @@
       "tags": [
         "Kith"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM034787-116-Front.jpg?v=1778621562"
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM034787-116-Front.jpg?v=1778621562",
+      "category": "tops"
     },
     {
       "id": "kith-8286408081536",
@@ -800,7 +886,8 @@
       "tags": [
         "Kith"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM034802-207-Front.jpg?v=1778621559"
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM034802-207-Front.jpg?v=1778621559",
+      "category": "tops"
     },
     {
       "id": "kith-8286408016000",
@@ -809,7 +896,8 @@
       "tags": [
         "Kith"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM011237-102-Front.jpg?v=1778621561"
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM011237-102-Front.jpg?v=1778621561",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485037-000",
@@ -818,7 +906,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485037/item/krgoods_03_485037_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485037/item/krgoods_03_485037_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486161-000",
@@ -828,14 +917,16 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486161/item/krgoods_10_486161_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486161/item/krgoods_10_486161_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485710-000",
       "name": "소프트모달캐미솔(플라워)",
       "brand": "Uniqlo",
       "tags": [],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485710/item/krgoods_01_485710_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485710/item/krgoods_01_485710_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485052-000",
@@ -845,7 +936,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485052/item/krgoods_30_485052_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485052/item/krgoods_30_485052_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E489910-000",
@@ -855,7 +947,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/489910/item/goods_09_489910_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/489910/item/goods_09_489910_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485033-000",
@@ -865,7 +958,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485033/item/krgoods_41_485033_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485033/item/krgoods_41_485033_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E489909-000",
@@ -875,7 +969,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/489909/item/goods_00_489909_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/489909/item/goods_00_489909_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485034-000",
@@ -885,7 +980,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485034/item/krgoods_55_485034_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485034/item/krgoods_55_485034_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "bape-9048288395395",
@@ -894,7 +990,8 @@
       "tags": [
         "BAPE"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00COPM202303_GRA_A.jpg?v=1779252956"
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00COPM202303_GRA_A.jpg?v=1779252956",
+      "category": "tops"
     },
     {
       "id": "bape-9035701584003",
@@ -903,7 +1000,8 @@
       "tags": [
         "BAPE"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00CKNM202313_IVY_A.jpg?v=1779077423"
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00CKNM202313_IVY_A.jpg?v=1779077423",
+      "category": "tops"
     },
     {
       "id": "bape-9035701551235",
@@ -912,7 +1010,8 @@
       "tags": [
         "BAPE"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00CKNM202312_GRA_A.jpg?v=1779077417"
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00CKNM202312_GRA_A.jpg?v=1779077417",
+      "category": "tops"
     },
     {
       "id": "bape-8997217009795",
@@ -921,7 +1020,8 @@
       "tags": [
         "BAPE"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00CKNM202311_IVY_A.jpg?v=1779077409"
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00CKNM202311_IVY_A.jpg?v=1779077409",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E489908-000",
@@ -931,14 +1031,16 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/489908/item/goods_03_489908_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/489908/item/goods_03_489908_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485647-000",
       "name": "소프트립탱크탑(링거)",
       "brand": "Uniqlo",
       "tags": [],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485647/item/krgoods_01_485647_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485647/item/krgoods_01_485647_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485069-000",
@@ -947,7 +1049,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485069/item/krgoods_02_485069_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485069/item/krgoods_02_485069_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484777-000",
@@ -957,7 +1060,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/484777/item/goods_00_484777_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/484777/item/goods_00_484777_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485062-000",
@@ -966,7 +1070,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485062/item/krgoods_09_485062_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485062/item/krgoods_09_485062_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E481040-000",
@@ -976,7 +1081,8 @@
         "스웨트셔츠",
         "오버사이즈"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/481040/item/krgoods_03_481040_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/481040/item/krgoods_03_481040_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485067-000",
@@ -985,7 +1091,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485067/item/krgoods_68_485067_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485067/item/krgoods_68_485067_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E475377-000",
@@ -994,7 +1101,8 @@
       "tags": [
         "스웨트셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475377/item/krgoods_31_475377_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475377/item/krgoods_31_475377_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "bape-8997216977027",
@@ -1003,7 +1111,8 @@
       "tags": [
         "BAPE"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00CKNM202310_GRA_A.jpg?v=1779077401"
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/00CKNM202310_GRA_A.jpg?v=1779077401",
+      "category": "tops"
     },
     {
       "id": "bape-8794313588867",
@@ -1012,7 +1121,8 @@
       "tags": [
         "BAPE"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001CSM301001_WHT_A.jpg?v=1778474562"
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001CSM301001_WHT_A.jpg?v=1778474562",
+      "category": "tops"
     },
     {
       "id": "bape-8944899784835",
@@ -1021,7 +1131,8 @@
       "tags": [
         "BAPE"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001TEM301323_WHT_A.jpg?v=1778474605"
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001TEM301323_WHT_A.jpg?v=1778474605",
+      "category": "tops"
     },
     {
       "id": "bape-8794307526787",
@@ -1030,14 +1141,16 @@
       "tags": [
         "BAPE"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/002TEM303021_WHT_A.jpg?v=1778550159"
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/002TEM303021_WHT_A.jpg?v=1778550159",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E483536-000",
       "name": "소프트립T(긴팔)스트라이프",
       "brand": "Uniqlo",
       "tags": [],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483536/item/krgoods_69_483536_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483536/item/krgoods_69_483536_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485064-000",
@@ -1046,7 +1159,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485064/item/krgoods_00_485064_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485064/item/krgoods_00_485064_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485735-000",
@@ -1057,7 +1171,8 @@
         "파카",
         "오버사이즈"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485735/item/krgoods_69_485735_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485735/item/krgoods_69_485735_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485065-000",
@@ -1066,7 +1181,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485065/item/krgoods_68_485065_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485065/item/krgoods_68_485065_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E475380-000",
@@ -1076,7 +1192,8 @@
         "스웨트셔츠",
         "파카"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475380/item/krgoods_09_475380_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475380/item/krgoods_09_475380_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485071-000",
@@ -1086,7 +1203,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485071/item/krgoods_57_485071_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485071/item/krgoods_57_485071_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E471808-000",
@@ -1097,7 +1215,8 @@
         "파카",
         "오버사이즈"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/471808/item/krgoods_03_471808_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/471808/item/krgoods_03_471808_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484795-000",
@@ -1106,7 +1225,8 @@
       "tags": [
         "크루넥"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484795/item/krgoods_67_484795_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484795/item/krgoods_67_484795_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "haven-8049980244141",
@@ -1115,7 +1235,8 @@
       "tags": [
         "Haven"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Cale-Nidomuchino-Jacket-Ivory-1.jpg?v=1756961781"
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Cale-Nidomuchino-Jacket-Ivory-1.jpg?v=1756961781",
+      "category": "tops"
     },
     {
       "id": "haven-8534730473645",
@@ -1124,7 +1245,8 @@
       "tags": [
         "Haven"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Oakley-Neo-Jacket-Matte-Mahogany-w--Prizm-Tungsten-1.jpg?v=1778613410"
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Oakley-Neo-Jacket-Matte-Mahogany-w--Prizm-Tungsten-1.jpg?v=1778613410",
+      "category": "tops"
     },
     {
       "id": "haven-8534730440877",
@@ -1133,7 +1255,8 @@
       "tags": [
         "Haven"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Oakley-Neo-Jacket-Matte-Black-w--Prizm-Black-1.jpg?v=1778613405"
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Oakley-Neo-Jacket-Matte-Black-w--Prizm-Black-1.jpg?v=1778613405",
+      "category": "tops"
     },
     {
       "id": "haven-8456660385965",
@@ -1142,7 +1265,8 @@
       "tags": [
         "Haven"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/ssstein-Organic-Cotton-Knit-Skipper-Ls-Black-1.jpg?v=1778612432"
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/ssstein-Organic-Cotton-Knit-Skipper-Ls-Black-1.jpg?v=1778612432",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485068-000",
@@ -1152,7 +1276,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485068/item/krgoods_64_485068_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485068/item/krgoods_64_485068_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E483960-000",
@@ -1162,7 +1287,8 @@
         "파카",
         "니트"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483960/item/krgoods_09_483960_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483960/item/krgoods_09_483960_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E488072-000",
@@ -1172,7 +1298,8 @@
         "그래픽",
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488072/item/krgoods_09_488072_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488072/item/krgoods_09_488072_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484398-000",
@@ -1182,7 +1309,8 @@
         "스웨트셔츠",
         "자켓"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484398/item/krgoods_09_484398_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484398/item/krgoods_09_484398_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484766-000",
@@ -1191,7 +1319,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484766/item/krgoods_03_484766_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484766/item/krgoods_03_484766_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484399-000",
@@ -1200,7 +1329,8 @@
       "tags": [
         "스웨트셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484399/item/krgoods_09_484399_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484399/item/krgoods_09_484399_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486708-000",
@@ -1209,7 +1339,8 @@
       "tags": [
         "티셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486708/item/krgoods_40_486708_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486708/item/krgoods_40_486708_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482752-000",
@@ -1218,7 +1349,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482752/item/krgoods_00_482752_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482752/item/krgoods_00_482752_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "haven-8456660353197",
@@ -1227,7 +1359,8 @@
       "tags": [
         "Haven"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/ssstein-Organic-Cotton-Knit-Skipper-Ls-Dark-Brown-1.jpg?v=1778612442"
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/ssstein-Organic-Cotton-Knit-Skipper-Ls-Dark-Brown-1.jpg?v=1778612442",
+      "category": "tops"
     },
     {
       "id": "haven-8456660320429",
@@ -1236,7 +1369,8 @@
       "tags": [
         "Haven"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/ssstein-Nylon-Skipper-Shirt-Black-1.jpg?v=1778612414"
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/ssstein-Nylon-Skipper-Shirt-Black-1.jpg?v=1778612414",
+      "category": "tops"
     },
     {
       "id": "haven-8018203902125",
@@ -1245,7 +1379,8 @@
       "tags": [
         "Haven"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Satisfy-MothTech-Muscle-Tee-Aged-Black-1.jpg?v=1740876199"
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Satisfy-MothTech-Muscle-Tee-Aged-Black-1.jpg?v=1740876199",
+      "category": "tops"
     },
     {
       "id": "haven-8251541389485",
@@ -1254,7 +1389,8 @@
       "tags": [
         "Haven"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/sacai-x-Carhartt-WIP-Cotton-Jersey-L-S-T-Shirt-Dark-Beige-1.jpg?v=1759474502"
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/sacai-x-Carhartt-WIP-Cotton-Jersey-L-S-T-Shirt-Dark-Beige-1.jpg?v=1759474502",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E455957-000",
@@ -1264,7 +1400,8 @@
         "셔츠",
         "리넨"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/455957/item/krgoods_00_455957_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/455957/item/krgoods_00_455957_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E488071-000",
@@ -1273,7 +1410,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488071/item/krgoods_00_488071_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488071/item/krgoods_00_488071_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482443-000",
@@ -1285,7 +1423,8 @@
         "리넨",
         "코튼"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482443/item/krgoods_30_482443_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482443/item/krgoods_30_482443_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485480-000",
@@ -1294,7 +1433,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485480/item/krgoods_09_485480_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485480/item/krgoods_09_485480_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482434-000",
@@ -1304,7 +1444,8 @@
         "셔츠",
         "리넨"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482434/item/krgoods_01_482434_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482434/item/krgoods_01_482434_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484874-000",
@@ -1314,7 +1455,8 @@
         "폴로",
         "셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484874/item/krgoods_10_484874_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484874/item/krgoods_10_484874_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E486132-000",
@@ -1323,7 +1465,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486132/item/krgoods_00_486132_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486132/item/krgoods_00_486132_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485689-000",
@@ -1333,7 +1476,8 @@
         "셔츠",
         "리넨"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485689/item/krgoods_08_485689_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485689/item/krgoods_08_485689_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "reigning-champ-8241331994806",
@@ -1342,7 +1486,8 @@
       "tags": [
         "Reigning Champ"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/FA24_RC-1456_HBLACK_T-Shirt_off_jp_d4a461fc-06df-46fd-8fef-d7c171c38190.jpg?v=1756938610"
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/FA24_RC-1456_HBLACK_T-Shirt_off_jp_d4a461fc-06df-46fd-8fef-d7c171c38190.jpg?v=1756938610",
+      "category": "tops"
     },
     {
       "id": "reigning-champ-8356816093366",
@@ -1351,7 +1496,8 @@
       "tags": [
         "Reigning Champ"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-8080_WHITE-BLUE_SHIRTING_off_jp_fff042d2-20ca-4985-92e5-3896ce14d51b.jpg?v=1777061825"
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-8080_WHITE-BLUE_SHIRTING_off_jp_fff042d2-20ca-4985-92e5-3896ce14d51b.jpg?v=1777061825",
+      "category": "tops"
     },
     {
       "id": "reigning-champ-8356816060598",
@@ -1360,7 +1506,8 @@
       "tags": [
         "Reigning Champ"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-8080_WHITE_SHIRTING_off_jp_88cce49a-c8dc-4c7b-bf9c-f2d84264c827.jpg?v=1777061824"
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-8080_WHITE_SHIRTING_off_jp_88cce49a-c8dc-4c7b-bf9c-f2d84264c827.jpg?v=1777061824",
+      "category": "tops"
     },
     {
       "id": "reigning-champ-8356815995062",
@@ -1369,7 +1516,8 @@
       "tags": [
         "Reigning Champ"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-8080_LIGHTGREY_SHIRTING_off_jp_017366ff-9b87-4333-92a3-e44a72cac98a.jpg?v=1777061825"
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-8080_LIGHTGREY_SHIRTING_off_jp_017366ff-9b87-4333-92a3-e44a72cac98a.jpg?v=1777061825",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E484759-000",
@@ -1378,7 +1526,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484759/item/krgoods_30_484759_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484759/item/krgoods_30_484759_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E474506-000",
@@ -1388,7 +1537,8 @@
         "셔츠",
         "리넨"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/474506/item/krgoods_01_474506_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/474506/item/krgoods_01_474506_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E485481-000",
@@ -1397,7 +1547,8 @@
       "tags": [
         "그래픽"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485481/item/krgoods_00_485481_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485481/item/krgoods_00_485481_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "uniqlo-E482497-000",
@@ -1406,7 +1557,8 @@
       "tags": [
         "셔츠"
       ],
-      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482497/item/krgoods_06_482497_3x4.jpg"
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482497/item/krgoods_06_482497_3x4.jpg",
+      "category": "tops"
     },
     {
       "id": "reigning-champ-8356815962294",
@@ -1415,7 +1567,8 @@
       "tags": [
         "Reigning Champ"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-8080_LIGHTBLUE_SHIRTING_off_jp.jpg?v=1777061824"
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-8080_LIGHTBLUE_SHIRTING_off_jp.jpg?v=1777061824",
+      "category": "tops"
     },
     {
       "id": "reigning-champ-8127398346934",
@@ -1424,7 +1577,8 @@
       "tags": [
         "Reigning Champ"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-1555_NAVY_T-SHIRT_off_jp.jpg?v=1776885191"
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-1555_NAVY_T-SHIRT_off_jp.jpg?v=1776885191",
+      "category": "tops"
     },
     {
       "id": "reigning-champ-8127396085942",
@@ -1433,7 +1587,8 @@
       "tags": [
         "Reigning Champ"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-1555_WHITE_T-SHIRT_off_jp.jpg?v=1776885190"
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-1555_WHITE_T-SHIRT_off_jp.jpg?v=1776885190",
+      "category": "tops"
     },
     {
       "id": "reigning-champ-8344243601590",
@@ -1442,7 +1597,8 @@
       "tags": [
         "Reigning Champ"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-1559_FADEDBRITISHRACINGGREEN_T-SHIRT_off_jp.jpg?v=1776279691"
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-1559_FADEDBRITISHRACINGGREEN_T-SHIRT_off_jp.jpg?v=1776279691",
+      "category": "tops"
     },
     {
       "id": "dover-street-market-7168879788294",
@@ -1451,7 +1607,8 @@
       "tags": [
         "Dover Street Market"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/NIKE_1900000682365_22821.jpg?v=1779272182"
+      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/NIKE_1900000682365_22821.jpg?v=1779272182",
+      "category": "tops"
     },
     {
       "id": "dover-street-market-7168905838854",
@@ -1460,7 +1617,8 @@
       "tags": [
         "Dover Street Market"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/ADGBannerPrintSSTee-White-Front.jpg?v=1777623327"
+      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/ADGBannerPrintSSTee-White-Front.jpg?v=1777623327",
+      "category": "tops"
     },
     {
       "id": "dover-street-market-7156182221062",
@@ -1469,7 +1627,8 @@
       "tags": [
         "Dover Street Market"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/MARGIELA_11000000395586_12413.jpg?v=1779184871"
+      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/MARGIELA_11000000395586_12413.jpg?v=1779184871",
+      "category": "tops"
     },
     {
       "id": "dover-street-market-7156012122374",
@@ -1478,7 +1637,8 @@
       "tags": [
         "Dover Street Market"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/DANIELA_11000000393397_20233.jpg?v=1778170218"
+      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/DANIELA_11000000393397_20233.jpg?v=1778170218",
+      "category": "tops"
     },
     {
       "id": "dover-street-market-7157481144582",
@@ -1487,7 +1647,8 @@
       "tags": [
         "Dover Street Market"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/CAVEMPT_1600000668246_21879.jpg?v=1778674625"
+      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/CAVEMPT_1600000668246_21879.jpg?v=1778674625",
+      "category": "tops"
     },
     {
       "id": "dover-street-market-7157480521990",
@@ -1496,7 +1657,8 @@
       "tags": [
         "Dover Street Market"
       ],
-      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/CAVEMPT_1600000668243_21877.jpg?v=1778674519"
+      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/CAVEMPT_1600000668243_21877.jpg?v=1778674519",
+      "category": "tops"
     },
     {
       "id": "nike-3W1ezSK7",
@@ -1505,7 +1667,8 @@
       "tags": [
         "Nike"
       ],
-      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5acdb666-5ff9-4d64-968b-9f491625916c/AS+M+NKCT+SLAM+SLVLS+PO+HD+RG.png"
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/5acdb666-5ff9-4d64-968b-9f491625916c/AS+M+NKCT+SLAM+SLVLS+PO+HD+RG.png",
+      "category": "tops"
     },
     {
       "id": "nike-kHrqxXAh",
@@ -1514,7 +1677,8 @@
       "tags": [
         "Nike"
       ],
-      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b4123172-1e95-4d96-9afc-0c27d8c3ae75/AS+M+NKCT+DFADV+SLAM+POLO+RG.png"
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b4123172-1e95-4d96-9afc-0c27d8c3ae75/AS+M+NKCT+DFADV+SLAM+POLO+RG.png",
+      "category": "tops"
     },
     {
       "id": "nike-7hzkF0Xv",
@@ -1523,7 +1687,8 @@
       "tags": [
         "Nike"
       ],
-      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8084aee1-b898-4690-8804-0581cb897c06/AS+M+NSW+TEE+XMAP.png"
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8084aee1-b898-4690-8804-0581cb897c06/AS+M+NSW+TEE+XMAP.png",
+      "category": "tops"
     },
     {
       "id": "nike-7CWk1OYw",
@@ -1532,7 +1697,8 @@
       "tags": [
         "Nike"
       ],
-      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/38bc7e87-d210-4d4d-9ca8-e098f76bc961/AS+M+NK+DF+UV+HYVERSE+SS+MOP2.png"
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/38bc7e87-d210-4d4d-9ca8-e098f76bc961/AS+M+NK+DF+UV+HYVERSE+SS+MOP2.png",
+      "category": "tops"
     },
     {
       "id": "nike-KqAgO8Eh",
@@ -1541,7 +1707,8 @@
       "tags": [
         "Nike"
       ],
-      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f51d5f32-72f9-4b25-873c-227eac74dffa/M+NK+WOVEN+JACKET+FR.png"
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/f51d5f32-72f9-4b25-873c-227eac74dffa/M+NK+WOVEN+JACKET+FR.png",
+      "category": "tops"
     },
     {
       "id": "nike-cvzn0eky",
@@ -1550,7 +1717,8 @@
       "tags": [
         "Nike"
       ],
-      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0a80c5b1-e42f-4c65-bb1a-7d241e1d7afd/M+NK+SB+DF+BOWLER+FR+SU26.png"
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/0a80c5b1-e42f-4c65-bb1a-7d241e1d7afd/M+NK+SB+DF+BOWLER+FR+SU26.png",
+      "category": "tops"
     },
     {
       "id": "nike-NzvmLfiI",
@@ -1559,7 +1727,1972 @@
       "tags": [
         "Nike"
       ],
-      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3beda8cd-28ee-4ae9-a71f-fc256c6e6eba/M+NK+JERSEY+FR.png"
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3beda8cd-28ee-4ae9-a71f-fc256c6e6eba/M+NK+JERSEY+FR.png",
+      "category": "tops"
+    },
+    {
+      "id": "stüssy-7461176148064",
+      "name": "HOODED COACHES JACKET",
+      "brand": "Stüssy",
+      "tags": [
+        "Stüssy"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115909_REDD_3.jpg?v=1778691814",
+      "category": "tops"
+    },
+    {
+      "id": "stüssy-7461175459936",
+      "name": "HOODED COACHES JACKET",
+      "brand": "Stüssy",
+      "tags": [
+        "Stüssy"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/115909_BONE_3.jpg?v=1778691799",
+      "category": "tops"
+    },
+    {
+      "id": "stüssy-7164337029216",
+      "name": "WORLD TOUR HOODIE",
+      "brand": "Stüssy",
+      "tags": [
+        "Stüssy"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/3923962_ASHH_1_a4c80dd4-b7cf-48fc-a3a1-9049b733ff54.jpg?v=1778863502",
+      "category": "tops"
+    },
+    {
+      "id": "stüssy-7542903111776",
+      "name": "BASIC STÜSSY THERMAL",
+      "brand": "Stüssy",
+      "tags": [
+        "Stüssy"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1140356_NAVY_1.jpg?v=1778692217",
+      "category": "tops"
+    },
+    {
+      "id": "stüssy-6737803837536",
+      "name": "LAZY LONGSLEEVE TEE",
+      "brand": "Stüssy",
+      "tags": [
+        "Stüssy"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0087/6193/3920/files/1140333_OCEA_1.jpg?v=1768350857",
+      "category": "tops"
+    },
+    {
+      "id": "aimé-leon-dore-7547866775649",
+      "name": "Cotton Eyelet Crewneck Sweater",
+      "brand": "Aimé Leon Dore",
+      "tags": [
+        "Aimé Leon Dore"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9b167c086169fb9b167c2a4.7803457169fb9b167c2a4.jpg?v=1778252486",
+      "category": "tops"
+    },
+    {
+      "id": "aimé-leon-dore-7547866251361",
+      "name": "Skáfos Sweater",
+      "brand": "Aimé Leon Dore",
+      "tags": [
+        "Aimé Leon Dore"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9a9af3b63469fb9a9af3d42.7815588069fb9a9af3d42.jpg?v=1778252454",
+      "category": "tops"
+    },
+    {
+      "id": "aimé-leon-dore-7547865792609",
+      "name": "Fassianos \"Rendez - Vous\" Crewneck Sweater",
+      "brand": "Aimé Leon Dore",
+      "tags": [
+        "Aimé Leon Dore"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fb9b699c0fc669fb9b699c364.1332065369fb9b699c364.jpg?v=1778252429",
+      "category": "tops"
+    },
+    {
+      "id": "aimé-leon-dore-7547867267169",
+      "name": "Mosaic Button Down Shirt",
+      "brand": "Aimé Leon Dore",
+      "tags": [
+        "Aimé Leon Dore"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fba1c1cb369569fba1c1cb55f.6974850669fba1c1cb55f.jpg?v=1778252586",
+      "category": "tops"
+    },
+    {
+      "id": "aimé-leon-dore-7547867463777",
+      "name": "Yarn Dyed Striped Shirt",
+      "brand": "Aimé Leon Dore",
+      "tags": [
+        "Aimé Leon Dore"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0302/7829/files/AimeLeonDore69fba14a8ad57569fba14a8afa1.6335066169fba14a8afa1.jpg?v=1778252634",
+      "category": "tops"
+    },
+    {
+      "id": "kith-8286407983232",
+      "name": "Kith High Twist Tweed Graham Polo - Palomino",
+      "brand": "Kith",
+      "tags": [
+        "Kith"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM034815-249-Front.jpg?v=1778621555",
+      "category": "tops"
+    },
+    {
+      "id": "kith-8286408245376",
+      "name": "Kith Cupro Linen Caelan Shirt - Tiger",
+      "brand": "Kith",
+      "tags": [
+        "Kith"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM034791-852-Front.jpg?v=1778621583",
+      "category": "tops"
+    },
+    {
+      "id": "kith-8286407950464",
+      "name": "Kith High Twist Tweed Rhys Cardigan - Nocturnal",
+      "brand": "Kith",
+      "tags": [
+        "Kith"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM034816-413-Front.jpg?v=1778621555",
+      "category": "tops"
+    },
+    {
+      "id": "kith-8286407786624",
+      "name": "Kith Washed Indigo Plaid Henson Shirt - Light Indigo",
+      "brand": "Kith",
+      "tags": [
+        "Kith"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM034811-415-Front.jpg?v=1778621553",
+      "category": "tops"
+    },
+    {
+      "id": "kith-8286407753856",
+      "name": "Kith Bandana Towel Terry Thompson Camp Collar Shirt - Kindling",
+      "brand": "Kith",
+      "tags": [
+        "Kith"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/KHM035221-211-Front.jpg?v=1778621556",
+      "category": "tops"
+    },
+    {
+      "id": "bape-8794304741507",
+      "name": "RETRO PIXEL WINKING MILO TEE",
+      "brand": "BAPE",
+      "tags": [
+        "BAPE"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/002TEM305021_WHT_A.jpg?v=1778550147",
+      "category": "tops"
+    },
+    {
+      "id": "bape-8873295052931",
+      "name": "PRETEND BABY MILO TEE",
+      "brand": "BAPE",
+      "tags": [
+        "BAPE"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/002CSM303007_GRA_A.jpg?v=1778482405",
+      "category": "tops"
+    },
+    {
+      "id": "bape-9025679818883",
+      "name": "ONE POINT OMBRE CHECK LIGHT FLANNEL SS SHIRT",
+      "brand": "BAPE",
+      "tags": [
+        "BAPE"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001SRM301312_BLK_A.jpg?v=1778488691",
+      "category": "tops"
+    },
+    {
+      "id": "bape-8944899719299",
+      "name": "GRAFFITI BAPE LOGO RELAXED FIT TEE TEE",
+      "brand": "BAPE",
+      "tags": [
+        "BAPE"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001TEM301316_WHT_A.jpg?v=1778474584",
+      "category": "tops"
+    },
+    {
+      "id": "bape-8794311360643",
+      "name": "COLLEGE ZIP HOODIE",
+      "brand": "BAPE",
+      "tags": [
+        "BAPE"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001ZPM302315_GRA_A.jpg?v=1778569063",
+      "category": "tops"
+    },
+    {
+      "id": "haven-8487051231405",
+      "name": "Graft Coat - Suvin Cotton Denim Light Wash Indigo",
+      "brand": "Haven",
+      "tags": [
+        "Haven"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/HAVEN-Graft-Coat---Suvin-Cotton-Denim-Light-Wash-Indigo-1.jpg?v=1777998105",
+      "category": "tops"
+    },
+    {
+      "id": "haven-8487051198637",
+      "name": "Graft Coat - Suvin Cotton Denim Light Wash Black",
+      "brand": "Haven",
+      "tags": [
+        "Haven"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/HAVEN-Graft-Coat---Suvin-Cotton-Denim-Light-Wash-Black-1.jpg?v=1777998099",
+      "category": "tops"
+    },
+    {
+      "id": "haven-8491974328493",
+      "name": "Waxed Pigment Cotton Jacket Umber",
+      "brand": "Haven",
+      "tags": [
+        "Haven"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Stone-Island-Waxed-Pigment-Cotton-Jacket-Umber-1.jpg?v=1778085455",
+      "category": "tops"
+    },
+    {
+      "id": "haven-8491974295725",
+      "name": "Ghost Piece Cotton Linen Quilted Overshirt Black",
+      "brand": "Haven",
+      "tags": [
+        "Haven"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Stone-Island-Ghost-Piece-Cotton-Linen-Quilted-Overshirt-Black-1.jpg?v=1778085418",
+      "category": "tops"
+    },
+    {
+      "id": "haven-8491974033581",
+      "name": "Ghost Piece Cotton Stretch Sweatshirt Dust Grey",
+      "brand": "Haven",
+      "tags": [
+        "Haven"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0051/7042/files/Stone-Island-Ghost-Piece-Cotton-Stretch-Sweatshirt-Dust-Grey-1.jpg?v=1778085424",
+      "category": "tops"
+    },
+    {
+      "id": "reigning-champ-8335944417462",
+      "name": "Midweight Jersey Fadeaway Standard T-Shirt",
+      "brand": "Reigning Champ",
+      "tags": [
+        "Reigning Champ"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-1559_FADEDBLACK_T-SHIRT_off_jp.jpg?v=1776279691",
+      "category": "tops"
+    },
+    {
+      "id": "reigning-champ-8344247697590",
+      "name": "Linen Concourse Standard Overshirt",
+      "brand": "Reigning Champ",
+      "tags": [
+        "Reigning Champ"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-8064_SAND_SHIRTING_off_jp.jpg?v=1776368651",
+      "category": "tops"
+    },
+    {
+      "id": "reigning-champ-8344246550710",
+      "name": "Linen Venue Jacket",
+      "brand": "Reigning Champ",
+      "tags": [
+        "Reigning Champ"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-4334_BLACK_JACKET_off_jp.jpg?v=1776368653",
+      "category": "tops"
+    },
+    {
+      "id": "reigning-champ-8344245600438",
+      "name": "Linen Venue Jacket",
+      "brand": "Reigning Champ",
+      "tags": [
+        "Reigning Champ"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-4334_SAND_JACKET_off_jp.jpg?v=1776368653",
+      "category": "tops"
+    },
+    {
+      "id": "reigning-champ-8344245534902",
+      "name": "Linen Concourse Standard Overshirt",
+      "brand": "Reigning Champ",
+      "tags": [
+        "Reigning Champ"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/1499/3122/files/SS26_RC-8064_BLACK_SHIRTING_off_jp.jpg?v=1776368651",
+      "category": "tops"
+    },
+    {
+      "id": "dover-street-market-7168505151750",
+      "name": "A.Presse - Men's Cashmere Turtleneck - (Black)",
+      "brand": "Dover Street Market",
+      "tags": [
+        "Dover Street Market"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0487/8188/5596/files/APRESSE_1600000672979_22772.jpg?v=1779095725",
+      "category": "tops"
+    }
+  ],
+  "bottoms": [
+    {
+      "id": "nike-6NzzBg",
+      "name": "Nike Club — Men's Balloon Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ee02739-539d-48d4-8c3c-3544a8fbe79c/M+NK+CLUB+BALLOON+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-2XCkbz",
+      "name": "Nike Sportswear Club — Men's Woven Cargo Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/3625c4da-05af-4d04-af7a-1ceb649e75fc/M+NK+CLUB+WVN+CARGO+PANT+CLCTN.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-MwBrd5",
+      "name": "Nike Solo Swoosh — Men's Fleece Open-Hem Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7ddddb72-cb8e-4f10-adf7-4d4ef72d8494/M+NL+SOLO+SWSH+BB+OH+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-adtEbScG",
+      "name": "Nike Windrunner — Men's Lined Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e1935ed9-2dc2-46c6-89a3-3206fadeb889/M+NK+WR+LND+PANT+26.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-QcwR4QtU",
+      "name": "Nike Solo Swoosh — Men's Fleece Open-Hem Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/887e52c2-d425-4cb5-b40f-347c378a5cbd/M+NL+SOLO+SWSH+BB+OH+PANT+GFX.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-5KjBV5eD",
+      "name": "Nike Tech — Men's Dri-FIT Shori Knit Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/c4a3f413-42f9-499b-9fab-ec839dfb69e6/M+NK+TECH+SHORI+KNIT+DRILL+PNT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-MOfTXHdz",
+      "name": "Nike Tech — Men's Fleece Joggers",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7b5497fc-0f84-4ce7-b034-fb44049df5f5/M+NK+TCH+FLC+JGGR.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-DVRkDX9Y",
+      "name": "Nike Club — Men's Woven Tapered Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ce8cb4f3-7465-4847-abb0-dac933864201/M+NK+CLUB+WVN+TAPER+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-2KhUfSVL",
+      "name": "Nike Air — Men's Track Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/84e9e8e9-0970-43e1-a0ce-e0ef9bf0755e/M+NK+AIR+PK+TRK+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-fRWfd8PN",
+      "name": "Nike Tech — Men's Dri-FIT Woven Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/cabfa4c5-2d77-40f2-a8ec-405b55b351f5/M+NK+DF+TCH+WVN+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-cWiAcw7p",
+      "name": "Nike Standard Issue — Men's Therma-FIT Brushed Open-Hem Basketball Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/63e17613-2740-4a9d-932c-e47592cc4222/M+NK+TF+SI+BRSH+OPEN+HEM+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-6CJQETfm",
+      "name": "Nike Tech — Men's Color-Block Open-Hem Fleece Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/58fae46e-885a-4938-857f-531ff8461ea2/M+NK+TECH+FLC+PRO+CB+OH+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-678B0ElW",
+      "name": "Nike Air — Men's Woven Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/927645e7-e755-4381-a073-cba0487f4f5d/M+NK+AIR+WVN+AOP+PANT+TL.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-RDIRl1pc",
+      "name": "Nike Sportswear Club — Men's Lightweight Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/1e567c64-26ca-48f4-ba15-32fac4ef6611/M+NK+CLUB+LTWT+PANT+CTB.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-B3pvRm",
+      "name": "Nike Club — Men's Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d974bc61-04e1-42cc-a12b-1ace80a0208d/M+NK+CLUB+BARCELONA+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-QCXpC7Ky",
+      "name": "Nike Sportswear Club — Men's Washed Cuffed Fleece Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/94a1abe9-54dc-4770-9d32-52d5b55da0a0/M+NK+CLUB+BB+CUFF+PANT+CWASH.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-UaoROJ9O",
+      "name": "Nike Club — Men's Joggers",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/ccbedaec-a317-4c8a-8c20-82694074098c/M+NK+CLUB+BB+JOGGER.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-rzmPlDSM",
+      "name": "Nike Tech — Men's Fleece Joggers",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/773a9f67-d3e7-43bb-80b7-2a88906b6ac7/M+NK+TCH+FLC+JGGR+AMD+2K26.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-POdGvsoR",
+      "name": "Nike Club — Men's Woven Cargo Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/bafb0cbc-4fe7-4146-bc6c-e9fe98e7be92/M+NK+CLUB+WVN+CARGO+PANT+UF.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-GqZZf9",
+      "name": "NOCTA — Men's Fleece CS Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/444ddbb7-2315-42df-b378-30c5bc1ce0aa/M+NRG+NOCTA+CS+PNT+FLC+WASH.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-gkdouYF4",
+      "name": "Nike Tech — Men's Woven Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/b55b4e76-a7c7-4fca-bcf8-6d8fe7c4f7a6/M+NK+DF+TCH+WVN+OH+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-sZWYJQ7K",
+      "name": "Nike Life — Men's Wide-Leg Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/90dd25a9-3b1b-4b7b-a304-829fd7adc9f0/M+NL+WIDE+LEG+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-pXa1BMBa",
+      "name": "Nike Tech — Men's Dri-FIT Shori Knit Utility Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/029bb98f-1e44-43d8-a8d7-08f6be127cb1/M+NK+TCH+SHORI+MM+UTLTY+PANT.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "nike-Oqml7Q6u",
+      "name": "Nike Tech — Men's Dri-FIT Woven Pants",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "bottoms"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/cc8817e6-21e6-4c9e-8288-b90117757fd7/M+NK+DF+TECH+WVN+PANT+AOP.png",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E488370-000",
+      "name": "기어팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488370/item/krgoods_09_488370_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E477345-000",
+      "name": "저지배럴레그팬츠(다리길이77cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/477345/item/krgoods_01_477345_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E475344-000",
+      "name": "저지배럴레그팬츠(다리길이70~72Cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475344/item/krgoods_32_475344_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482918-000",
+      "name": "기어팬츠(다리길이70~76cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482918/item/krgoods_09_482918_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E483042-000",
+      "name": "코튼큐롯",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483042/item/krgoods_34_483042_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E483001-000",
+      "name": "이지유틸리티팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483001/item/krgoods_58_483001_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E479382-000",
+      "name": "기어팬츠(다리길이70~76cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/479382/item/goods_31_479382_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E483285-000",
+      "name": "스웨트스트레이트팬츠(다리길이69~72cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483285/item/krgoods_09_483285_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484126-000",
+      "name": "리넨블렌드스트레이트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484126/item/krgoods_09_484126_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E489087-000",
+      "name": "파라슈트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/489087/item/goods_08_489087_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484854-000",
+      "name": "스웨트스트레이트팬츠(다리길이74~77cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484854/item/krgoods_30_484854_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E473791-000",
+      "name": "리넨블렌드이지팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/473791/item/krgoods_65_473791_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E489591-000",
+      "name": "카고팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/489591/item/krgoods_57_489591_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484875-000",
+      "name": "배럴팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484875/item/krgoods_01_484875_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E483903-000",
+      "name": "리넨블렌드이지팬츠(스트라이프)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483903/item/krgoods_01_483903_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E478670-000",
+      "name": "리넨블렌드이지앵클팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/478670/item/krgoods_30_478670_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E486042-000",
+      "name": "파라슈트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486042/item/krgoods_31_486042_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482246-000",
+      "name": "리넨블렌드이지팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482246/item/krgoods_58_482246_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482920-000",
+      "name": "리넨블렌드이지팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482920/item/krgoods_69_482920_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482883-000",
+      "name": "와이드핏카고팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482883/item/krgoods_35_482883_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482243-000",
+      "name": "코튼릴랙스앵클팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482243/item/krgoods_09_482243_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482259-000",
+      "name": "리넨블렌드이지앵클팬츠(스트라이프)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482259/item/krgoods_64_482259_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E479134-000",
+      "name": "스트레치이지앵클팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/479134/item/krgoods_08_479134_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E483896-000",
+      "name": "코튼릴랙스앵클팬츠(데님)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483896/item/krgoods_08_483896_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E465491-000",
+      "name": "울트라스트레치액티브테이퍼드팬츠(다리길이65~71cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465491/item/krgoods_57_465491_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E461420-000",
+      "name": "스트레치이지앵클팬츠(데님)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/461420/item/krgoods_62_461420_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484605-000",
+      "name": "이지팬츠(스트라이프)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484605/item/krgoods_62_484605_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E475598-000",
+      "name": "울트라스트레치팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/475598/item/krgoods_32_475598_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E471809-000",
+      "name": "스웨트와이드팬츠(다리길이66~72cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/471809/item/krgoods_31_471809_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E483910-000",
+      "name": "이지팬츠(체크)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483910/item/krgoods_61_483910_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E485744-000",
+      "name": "울트라스트레치액티브조거팬츠(다리길이66.5~72.5cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485744/item/krgoods_31_485744_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E473715-000",
+      "name": "스웨트와이드팬츠(다리길이70~76cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/473715/item/krgoods_09_473715_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484604-000",
+      "name": "이지팬츠(깅엄체크)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484604/item/krgoods_36_484604_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E465206-000",
+      "name": "울트라스트레치액티브조거팬츠(다리길이66.5~72.5cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/465206/item/krgoods_09_465206_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484807-000",
+      "name": "배기커브진(다리길이80cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484807/item/krgoods_67_484807_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E483908-000",
+      "name": "드레이프이지팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/483908/item/krgoods_68_483908_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E485495-000",
+      "name": "울트라스트레치액티브테이퍼드팬츠(다리길이68~74cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485495/item/krgoods_09_485495_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484807-001",
+      "name": "배기커브진(다리길이80cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484807001/item/krgoods_64_484807001_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E485593-000",
+      "name": "나일론큐롯",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485593/item/krgoods_08_485593_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E485745-000",
+      "name": "울트라스트레치액티브조거팬츠(다리길이69~75cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485745/item/krgoods_31_485745_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484662-000",
+      "name": "턱와이드테이퍼드팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484662/item/krgoods_05_484662_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E488694-000",
+      "name": "데님큐롯",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/488694/item/krgoods_65_488694_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E476606-000",
+      "name": "울트라스트레치액티브테이퍼드팬츠(다리길이65~71cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/476606/item/goods_38_476606_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484084-000",
+      "name": "스웨트커브팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484084/item/krgoods_09_484084_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484127-000",
+      "name": "리넨블렌드큐롯",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484127/item/krgoods_01_484127_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E451648-000",
+      "name": "스웨트팬츠(다리길이65cm~71cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/451648/item/krgoods_69_451648_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482758-000",
+      "name": "스웨트와이드쇼트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482758/item/krgoods_03_482758_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E474481-000",
+      "name": "울트라스트레치액티브와이드팬츠(다리길이68.5~71.5cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/474481/item/krgoods_32_474481_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E453843-000",
+      "name": "스웨트팬츠(다리길이68cm~74cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/453843/item/krgoods_08_453843_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484209-000",
+      "name": "데님쇼트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484209/item/krgoods_08_484209_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E455942-000",
+      "name": "울트라스트레치액티브조거팬츠(다리길이66~68cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/455942/item/krgoods_69_455942_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E486724-000",
+      "name": "GU퍼프스웨트캐롯팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486724/item/krgoods_54_486724_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482937-000",
+      "name": "기어쇼트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482937/item/krgoods_27_482937_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E477869-000",
+      "name": "울트라스트레치액티브와이드팬츠(다리길이73.5~76.5cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/477869/item/krgoods_08_477869_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482933-000",
+      "name": "프리미엄리넨와이드팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/482933/item/goods_04_482933_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482944-000",
+      "name": "치노쇼트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482944/item/krgoods_32_482944_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E458462-000",
+      "name": "울트라스트레치액티브조거팬츠(다리길이71~73cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/458462/item/krgoods_07_458462_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E470549-000",
+      "name": "와이드핏치노팬츠(다리길이72.5~74.5cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/470549/item/krgoods_36_470549_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E481582-000",
+      "name": "스트레치이지쇼트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/481582/item/krgoods_11_481582_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E479620-000",
+      "name": "스웨트와이드팬츠(다리길이70~73cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/479620/item/krgoods_10_479620_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E487636-000",
+      "name": "와이드핏치노팬츠(다리길이72.5~74.5cm)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487636/item/krgoods_09_487636_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E458325-000",
+      "name": "스트레치이지쇼트팬츠(시어서커)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/458325/item/krgoods_69_458325_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E486684-000",
+      "name": "GU배럴앵클팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486684/item/krgoods_01_486684_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E481030-000",
+      "name": "와이드핏치노팬츠(다리길이85.5cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/481030/item/krgoods_35_481030_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E481583-000",
+      "name": "스트레치이지쇼트팬츠(데님)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/481583/item/krgoods_64_481583_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E487345-000",
+      "name": "GU스웨트배럴앵클팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487345/item/krgoods_03_487345_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E473320-000",
+      "name": "와이드핏치노팬츠(다리길이85.5cm·긴기장)",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/473320/item/goods_35_473320_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484208-000",
+      "name": "이지쇼트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484208/item/krgoods_69_484208_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E486683-000",
+      "name": "GU퍼프스웨트배기팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/486683/item/krgoods_03_486683_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E484093-000",
+      "name": "턱와이드팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/484093/item/krgoods_37_484093_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E485739-000",
+      "name": "이지쇼트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/485739/item/krgoods_64_485739_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482256-000",
+      "name": "배럴앵클팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482256/item/krgoods_69_482256_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482874-000",
+      "name": "와이드테이퍼드진",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482874/item/krgoods_09_482874_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E476225-000",
+      "name": "스웨트와이드쇼트팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/476225/item/goods_03_476225_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E487393-000",
+      "name": "배럴카고팬츠",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/487393/item/krgoods_09_487393_3x4.jpg",
+      "category": "bottoms"
+    },
+    {
+      "id": "uniqlo-b-E482873-000",
+      "name": "와이드스트레이트컬러진",
+      "brand": "Uniqlo",
+      "tags": [
+        "Uniqlo",
+        "bottoms"
+      ],
+      "image": "https://image.uniqlo.com/UQ/ST3/kr/imagesgoods/482873/item/krgoods_63_482873_3x4.jpg",
+      "category": "bottoms"
+    }
+  ],
+  "shoes": [
+    {
+      "id": "nike-1ViayvSi",
+      "name": "Air Jordan 3 \"World's Best\" — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/72ec89da-8650-411a-89fa-acefcd60eb8b/AIR+JORDAN+3+RETRO+OG.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-pz28oX9z",
+      "name": "Air Jordan 12 Retro — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/69a8820f-1e95-45e8-8270-87a13b485213/AIR+JORDAN+12+RETRO.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-78rRP46N",
+      "name": "Nike Tennis Classic — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8eec710e-bddd-4278-a1b6-d89cad4b918b/TENNIS+CLASSIC+CS+STYLE.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-nGj0bX59",
+      "name": "Nike Tennis Classic PRM — Men's Terry Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ddb63c5b-0de0-4e03-9584-8f2888447653/TENNIS+CLASSIC+CS+PRM+%28TERRY%29.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-V6zI8gYE",
+      "name": "Nike Air Max 95 OG — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/accb54c8-858b-4c42-997c-23b94dbd2eab/AIR+MAX+95+BIG+BUBBLE.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-kWXqW9yR",
+      "name": "Nike Pegasus Premium — Men's Road Running Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7e2ef9fe-8032-4d7c-be7c-0f1d7634bef6/NIKE+PEGASUS+PREMIUM.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-l11miwwa",
+      "name": "Nike Vomero Premium — Men's Road Running Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/1ec3cc8b-bec7-457b-a00d-76fc31eab218/NIKE+VOMERO+PREMIUM.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-R6m2RvQq",
+      "name": "Nike ACG Zegama — Men's Trail Running Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ae4293b0-205b-42a0-be3c-cf1f6f405e95/NIKE+ACG+ZEGAMA+TRAIL.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-Z5DRSN1X",
+      "name": "Nike ACG Pegasus Trail — Men's Trail Running Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/e24e71b7-8169-4399-946c-06308e01cd39/NIKE+ACG+PEGASUS+TRAIL.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-wlaYvsTw",
+      "name": "Nike Dunk Low SE \"LNY\" — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6f707589-d382-4254-b6be-a87e77f946d1/NIKE+DUNK+LOW.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-slhnOew1",
+      "name": "Nike Air Force 1 '07 RealTree — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/932b7e3e-bd0e-4c78-930c-80a4dafdd30b/AIR+FORCE+1+%2707.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-9ceTZAxR",
+      "name": "Air Jordan 1 Retro Low OG \"Banned\" — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a4973a5c-6a81-46cf-a27e-be4c5fa29793/AIR+JORDAN+1+RETRO+LOW+OG.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-Aey77D4l",
+      "name": "Air Jordan 4 \"Toro Bravo\" — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/6e60a84d-fcc2-4aad-a6b1-5a8c72b1c460/AIR+JORDAN+4+RETRO.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-XmHqLlVc",
+      "name": "Nike Phantom 6 Low Elite LV8 — Firm-Ground Soccer Cleats",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/d427c1e3-3ed5-46df-985a-8bd9f8064e69/PHANTOM+6+LOW+ELITE+FG+LV8.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-7Gaczkk1",
+      "name": "Nike Phantom 6 High Elite LV8 — Firm-Ground Soccer Cleats",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/174fece9-d5df-4de6-a813-7d5859dc85ba/PHANTOM+6+HIGH+ELITE+FG+LV8.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-YpxmNMcL",
+      "name": "Nike Air Max Big Bubble — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/a9069a2b-6fbb-4bfa-853b-8f29d72c47dc/AIR+MAX+95+BB+TECH.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-0PISn0m1",
+      "name": "Nike Shox R4 — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b4364c3c-2fb5-4a1c-b724-7f249e22091d/NIKE+SHOX+R4+JEWEL+QS.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-LArVJUMq",
+      "name": "Sabrina 3 \"WNBA 30th\" — Basketball Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/93cbbc0a-a547-437b-b678-45070d1ed9ea/SABRINA+3++NRG.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-1EPyFJde",
+      "name": "LeBron XXIII \"Old Glory\" — Basketball Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ad77aa60-5ce3-4f8b-b9db-49d576dc20e0/LEBRON+XXIII.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-sHpe9Gv4",
+      "name": "Nike Air Max Moto 2K — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/8b71f9ba-666c-43fe-9a0c-0663d7100fdc/NIKE+AIR+MAX+MOTO+2K.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-XVPIszaq",
+      "name": "Nike Air Force 1 '07 — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/208fda8f-823d-4b65-8304-38d5ac25ce58/AIR+FORCE+1+%2707.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-2HpEZxcY",
+      "name": "Nike NEXT% TOUR 3 — Golf Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b97477f6-8152-446c-ad3c-21a202ce0693/NIKE+NEXT%25+TOUR+3+NRG+M26.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-dpr7oQdF",
+      "name": "Nike Pegasus 1 G — Golf Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9adf6c88-c7a5-4665-a960-0c64605863b2/PEGASUS+1+G.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-45fp1Une",
+      "name": "Nike Vapor 12 PRM — Men's Clay Court Tennis Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/016c43c6-28f7-4f13-b727-c513a7dc60cf/M+ZOOM+VAPOR+12+CLY+PRM.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-XkgpKW",
+      "name": "Nike P-6000 SE \"LNY\" — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/caa2ace7-253f-4bc7-b6e8-2402bec11ec1/NIKE+P-6000.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-Ow09rOwc",
+      "name": "Nike Ava Rover — Shoes with Reflective Accents",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/3e25f81e-ddc0-4f2e-9fc4-7ba94df725f4/NIKE+AVA+ROVER.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-GbnAW5Hb",
+      "name": "Nike Air Max Dn8 Leather — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/828496a5-4bde-4011-89cb-769b6d035ace/AIR+MAX+DN8+LTHR.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-YPsmAOxu",
+      "name": "Nike Air Max Dn8 — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/4ba757cc-739c-43a0-b12e-b3ea30d66795/AIR+MAX+DN8+QS.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-i8qhZzl9",
+      "name": "Nike Mind 001 — Men's Pregame Mules",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/930c1f5c-5116-4ed4-b650-333074bbde60/NIKE+MIND+001.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-xLDvc66W",
+      "name": "Nike Mind 001 — Men's Pregame Mules",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/9e731ef9-e141-4b41-84c0-adc38c00d960/NIKE+MIND+001.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-S1bYkOza",
+      "name": "Nike Pegasus 42 — Men's Road Running Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/935d489c-7819-4a65-ab22-7c2c68b45a7f/AIR+ZOOM+PEGASUS+42.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-0v8aYsXz",
+      "name": "Nike x Hyperice Hyperboot — Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c6362fd4-5ab3-4fd0-bc8a-7b9e072ed952/Hyperboot+by+Nike+x+Hyperice.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-MgsTqZ",
+      "name": "Nike Zoom Vomero 5 — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c0473483-0bdc-43d0-ad8f-45984fcbd9bf/NIKE+ZOOM+VOMERO+5.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-WHxi2GRN",
+      "name": "Nike V5 RNR — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/b5e26fde-056a-4d7e-b315-3f13185d428a/NIKE+V5+RNR.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-kUTSf6kL",
+      "name": "Nike ReactX Rejuven8 — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/7f1516fa-1ef2-48c0-ae7d-ea0537a8177d/NIKE+REACTX+REJUVEN8.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-amGpwcjx",
+      "name": "Nike Waffle Racer — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/ef284bfa-1ad0-4b29-845d-563f6dd827b5/WAFFLE+RACER.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-4smM2X",
+      "name": "Nike Air Force 1 Flyknit 2.0 — Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/jyfsnrfrqnvo8ahvuzeg/AIR+FORCE+1+FLYKNIT+2.0.png",
+      "category": "shoes"
+    },
+    {
+      "id": "nike-wyuYaJ9t",
+      "name": "Nike LD-1000 Flyknit — Men's Shoes",
+      "brand": "Nike",
+      "tags": [
+        "Nike",
+        "shoes"
+      ],
+      "image": "https://static.nike.com/a/images/t_default/u_9ddf04c7-2a9a-4d76-add1-d15af8f0263d,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/c36a52aa-b31d-459c-b47b-0f3a8e319711/LD-1000+FLYKNIT.png",
+      "category": "shoes"
+    },
+    {
+      "id": "kith-8286469161088",
+      "name": "New Balance ABZORB 2010 - Outerspace / Faded Black / Eclipse",
+      "brand": "Kith",
+      "tags": [
+        "Kith",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/U201052C_2_R_a353e19a-88b8-48c0-a04e-97efdd62a607.jpg?v=1779223042",
+      "category": "shoes"
+    },
+    {
+      "id": "kith-8286468997248",
+      "name": "New Balance TD 2010 Bungee - Black / Shadow Grey",
+      "brand": "Kith",
+      "tags": [
+        "Kith",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/I20105VY_2.jpg?v=1779223014",
+      "category": "shoes"
+    },
+    {
+      "id": "kith-8286468964480",
+      "name": "New Balance 1906L - Rosewood",
+      "brand": "Kith",
+      "tags": [
+        "Kith",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/New-Balance-U19065WS-Rosewood-U19065WS-01.jpg?v=1779223012",
+      "category": "shoes"
+    },
+    {
+      "id": "kith-8286468931712",
+      "name": "New Balance GS 2010 Lace - Black / Shadow Grey",
+      "brand": "Kith",
+      "tags": [
+        "Kith",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/g201088b_2.jpg?v=1779223012",
+      "category": "shoes"
+    },
+    {
+      "id": "kith-8286468898944",
+      "name": "New Balance ABZORB 2010 - Raincloud / Harbor Grey / White",
+      "brand": "Kith",
+      "tags": [
+        "Kith",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/u201056u_2.jpg?v=1779223012",
+      "category": "shoes"
+    },
+    {
+      "id": "kith-8286468866176",
+      "name": "New Balance TF100 - Angora",
+      "brand": "Kith",
+      "tags": [
+        "Kith",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/UTFOA4U0_2.jpg?v=1779223018",
+      "category": "shoes"
+    },
+    {
+      "id": "kith-8286468833408",
+      "name": "New Balance WMNS Made in USA 993 - Navy / White",
+      "brand": "Kith",
+      "tags": [
+        "Kith",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/wr993nv_2.jpg?v=1779223013",
+      "category": "shoes"
+    },
+    {
+      "id": "kith-8286468800640",
+      "name": "New Balance Made in UK Allerdale - Black / Chipmunk / Gum 090",
+      "brand": "Kith",
+      "tags": [
+        "Kith",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/uadwkkb_2.jpg?v=1779223013",
+      "category": "shoes"
+    },
+    {
+      "id": "kith-8286347591808",
+      "name": "Clarks Wallabee - Black Brush Off",
+      "brand": "Kith",
+      "tags": [
+        "Kith",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/CK26185668WallabeeBlackBrushOff_111.jpg?v=1779120874",
+      "category": "shoes"
+    },
+    {
+      "id": "kith-8286433247360",
+      "name": "Nike Air Max 95 OG - White / Emerald Green / Lake Blue",
+      "brand": "Kith",
+      "tags": [
+        "Kith",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0094/2252/files/AURORA_IH7855-100_PHSRH000-2000.jpg?v=1778877751",
+      "category": "shoes"
+    },
+    {
+      "id": "bape-7880366227587",
+      "name": "【 BAPE X SNEAKER NEWS 】BAPE STA",
+      "brand": "BAPE",
+      "tags": [
+        "BAPE",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001FWJ231906_WHT_B_f39794bd-c806-440f-aff9-7e3d2cb6ff5b.jpg?v=1778139593",
+      "category": "shoes"
+    },
+    {
+      "id": "bape-7880366522499",
+      "name": "【 BAPE X SNEAKER NEWS 】BAPE STA",
+      "brand": "BAPE",
+      "tags": [
+        "BAPE",
+        "shoes"
+      ],
+      "image": "https://cdn.shopify.com/s/files/1/0326/3660/0451/files/001FWJ231906_GRA_B.jpg?v=1778139593",
+      "category": "shoes"
     }
   ]
 }

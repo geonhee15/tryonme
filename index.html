@@ -96,12 +96,12 @@ const TEXT_FAINT = "#9a9187";
 // ---------------- catalog ----------------
 
 function useProducts() {
-  const [data, setData] = useState({ tops: [] });
+  const [data, setData] = useState({ tops: [], bottoms: [], shoes: [] });
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     fetch('products.json')
       .then(r => r.json())
-      .then(d => { setData(d); setLoading(false); })
+      .then(d => { setData({ tops: d.tops || [], bottoms: d.bottoms || [], shoes: d.shoes || [] }); setLoading(false); })
       .catch(() => setLoading(false));
   }, []);
   return { products: data, loading };
@@ -162,12 +162,19 @@ async function runFashnTryOn({ base, authHeader, userPhotoDataUrl, selectedItems
     const it = items[i];
     onProgress?.(items.length > 1 ? `입혀보는 중… (${i + 1} / ${items.length})` : '입혀보는 중…');
 
+    // FASHN tryon-v1.6 supports tops/bottoms/one-pieces. Shoes aren't
+    // first-class — we attempt 'tops' as a fallback so the user gets a
+    // descriptive error rather than a silent skip.
+    const fashnCategory = it.category === 'bottoms' ? 'bottoms'
+                        : it.category === 'shoes'  ? 'tops'
+                        : 'tops';
+
     const body = {
       model_name: 'tryon-v1.6',
       inputs: {
         model_image: modelImage,
         garment_image: it.image,
-        category: 'tops',
+        category: fashnCategory,
       },
     };
     if (customPrompt && i === 0) {
@@ -484,21 +491,23 @@ function SearchBar({ value, onChange }) {
   );
 }
 
-function CategoryTabs({ active }) {
+function CategoryTabs({ active, onChange, counts }) {
   const items = [
     { id: 'tops', label: '상의', ready: true },
-    { id: 'bottoms', label: '하의', ready: false },
-    { id: 'shoes', label: '신발', ready: false },
+    { id: 'bottoms', label: '하의', ready: true },
+    { id: 'shoes', label: '신발', ready: true },
     { id: 'eyewear', label: '안경', ready: false },
   ];
   return (
     <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
       {items.map(it => {
         const isActive = it.id === active;
+        const n = counts?.[it.id];
         return (
           <button
             key={it.id}
             disabled={!it.ready}
+            onClick={() => it.ready && onChange?.(it.id)}
             className={`chip-tab ${isActive ? 'active' : ''}`}
             style={{
               padding: '8px 14px', borderRadius: 999, fontSize: 13, fontWeight: 500, fontFamily: 'inherit',
@@ -509,6 +518,9 @@ function CategoryTabs({ active }) {
             }}
           >
             {it.label}
+            {it.ready && n != null && (
+              <span style={{ marginLeft: 6, fontSize: 11, opacity: isActive ? 0.85 : 0.5 }}>{n}</span>
+            )}
             {!it.ready && <span style={{ marginLeft: 6, fontSize: 11, color: '#c4bdb2' }}>곧</span>}
           </button>
         );
@@ -680,23 +692,34 @@ function App() {
 
   const engineMode = fashnKey ? 'personal' : (publicProxyAlive ? 'public' : 'demo');
 
-  const tops = products.tops || [];
+  const [category, setCategory] = useState('tops');
+  const allProducts = useMemo(
+    () => [...(products.tops || []), ...(products.bottoms || []), ...(products.shoes || [])],
+    [products],
+  );
+  const currentList = products[category] || [];
+  const counts = {
+    tops: (products.tops || []).length,
+    bottoms: (products.bottoms || []).length,
+    shoes: (products.shoes || []).length,
+  };
+
   const selectedItems = useMemo(
-    () => tops.filter(p => selectedIds.includes(p.id)),
-    [tops, selectedIds]
+    () => allProducts.filter(p => selectedIds.includes(p.id)),
+    [allProducts, selectedIds]
   );
 
   const filtered = useMemo(() => {
     const q = search.trim().toLowerCase();
-    if (!q) return tops;
-    return tops.filter(p => {
+    if (!q) return currentList;
+    return currentList.filter(p => {
       const hay = `${p.name} ${p.brand} ${(p.tags || []).join(' ')}`.toLowerCase();
       return hay.includes(q);
     });
-  }, [tops, search]);
+  }, [currentList, search]);
 
-  // Reset paging whenever the filter changes.
-  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [search]);
+  // Reset paging on filter/category change.
+  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [search, category]);
 
   const visible = filtered.slice(0, visibleCount);
   const hasMore = filtered.length > visibleCount;
@@ -770,7 +793,7 @@ function App() {
             </div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10, alignItems: 'flex-end' }}>
-            <CategoryTabs active="tops" />
+            <CategoryTabs active={category} onChange={setCategory} counts={counts} />
           </div>
         </div>
       </header>
@@ -833,7 +856,7 @@ function App() {
         <section className="workbench-main" style={{ minWidth: 0 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12, marginBottom: 14, flexWrap: 'wrap' }}>
             <div style={{ fontSize: 11, color: TEXT_FAINT, letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 600 }}>
-              카탈로그 · {filtered.length.toLocaleString()}개
+              카탈로그 · {({ tops: '상의', bottoms: '하의', shoes: '신발' })[category]} · {filtered.length.toLocaleString()}개
             </div>
             <SearchBar value={search} onChange={setSearch} />
           </div>

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>TRYONYOU — 옷, 진짜 제품으로 입어보세요</title>
+<title>TRYONME — 옷, 진짜 제품으로 입어보세요</title>
 <meta name="description" content="프롬프트 말고. 사진 한 장 올리고, 진짜 제품 골라서 그대로 입어보세요. 상의·하의·신발·안경까지." />
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -84,9 +84,97 @@ function useProducts() {
 }
 
 // ---------------- try-on backend ----------------
-// Demo mode composites the user photo with the selected garment thumbnails on a canvas.
-// Replace with a call to a virtual try-on API (e.g. fal.ai idm-vton) when ready.
-async function runTryOn({ userPhotoDataUrl, selectedItems, customPrompt }) {
+//
+// Primary engine: FASHN AI (https://fashn.ai) — currently considered the
+// state-of-the-art commercial virtual try-on model (tryon-v1.6). When the
+// user has saved their FASHN API key in localStorage we call the real API.
+// Without a key we fall back to a canvas-composite demo so the flow still
+// renders something useful.
+//
+// FASHN handles a single garment per request, so for multi-item selections
+// we chain calls — the previous run's output becomes the model image for
+// the next garment.
+
+const FASHN_KEY_STORAGE = 'tryonme_fashn_key';
+const FASHN_BASE = 'https://api.fashn.ai/v1';
+
+function getFashnKey() {
+  try { return localStorage.getItem(FASHN_KEY_STORAGE) || ''; } catch { return ''; }
+}
+function setFashnKey(k) {
+  try {
+    if (k) localStorage.setItem(FASHN_KEY_STORAGE, k);
+    else localStorage.removeItem(FASHN_KEY_STORAGE);
+  } catch {}
+}
+
+async function runTryOn({ userPhotoDataUrl, selectedItems, customPrompt, onProgress }) {
+  const key = getFashnKey();
+  if (key) {
+    return runFashnTryOn({ key, userPhotoDataUrl, selectedItems, customPrompt, onProgress });
+  }
+  return runDemoTryOn({ userPhotoDataUrl, selectedItems, customPrompt });
+}
+
+async function runFashnTryOn({ key, userPhotoDataUrl, selectedItems, customPrompt, onProgress }) {
+  // Chain garments. If a custom prompt is set, append it as a hint to the first run.
+  let modelImage = userPhotoDataUrl;
+  const items = selectedItems.length ? selectedItems : [{ id: 'prompt', image: null, name: customPrompt }];
+
+  for (let i = 0; i < items.length; i++) {
+    const it = items[i];
+    onProgress?.(`입혀보는 중… (${i + 1} / ${items.length})`);
+
+    const body = {
+      model_name: 'tryon-v1.6',
+      inputs: {
+        model_image: modelImage,
+        garment_image: it.image,
+        category: 'tops',
+      },
+    };
+    if (customPrompt && i === 0) {
+      body.inputs.garment_description = customPrompt;
+    }
+
+    const runRes = await fetch(`${FASHN_BASE}/run`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json', 'Authorization': `Bearer ${key}` },
+      body: JSON.stringify(body),
+    });
+    if (!runRes.ok) {
+      const t = await runRes.text().catch(() => '');
+      throw new Error(`FASHN run 실패 (${runRes.status}): ${t.slice(0, 200)}`);
+    }
+    const { id, error } = await runRes.json();
+    if (error) throw new Error(`FASHN: ${typeof error === 'string' ? error : JSON.stringify(error)}`);
+    if (!id) throw new Error('FASHN: 응답에 작업 ID가 없습니다.');
+
+    // Poll status. FASHN typically completes in 10-30s.
+    const deadline = Date.now() + 90_000;
+    let output = null;
+    while (Date.now() < deadline) {
+      await new Promise(r => setTimeout(r, 1800));
+      const sr = await fetch(`${FASHN_BASE}/status/${id}`, {
+        headers: { 'Authorization': `Bearer ${key}` },
+      });
+      if (!sr.ok) continue;
+      const sd = await sr.json();
+      if (sd.status === 'completed') {
+        output = Array.isArray(sd.output) ? sd.output[0] : sd.output;
+        break;
+      }
+      if (sd.status === 'failed' || sd.error) {
+        throw new Error(`FASHN: ${sd.error || '처리 실패'}`);
+      }
+    }
+    if (!output) throw new Error('FASHN: 90초 안에 응답이 없었어요. 다시 시도해 주세요.');
+    modelImage = output;
+  }
+  return modelImage;
+}
+
+async function runDemoTryOn({ userPhotoDataUrl, selectedItems, customPrompt }) {
   // Simulate latency so the UX feels real.
   await new Promise(r => setTimeout(r, 1400));
 
@@ -128,13 +216,13 @@ async function runTryOn({ userPhotoDataUrl, selectedItems, customPrompt }) {
     x -= (thumbSize + 10);
   }
 
-  // Watermark
+  // Watermark — make it clear this is the no-key demo path.
   ctx.fillStyle = 'rgba(255,255,255,0.92)';
-  roundedRect(ctx, pad, pad, 180, 36, 999);
+  roundedRect(ctx, pad, pad, 230, 36, 999);
   ctx.fill();
   ctx.fillStyle = ACCENT.ink;
   ctx.font = '600 13px Pretendard, system-ui, sans-serif';
-  ctx.fillText('TRYONYOU · 데모 미리보기', pad + 14, pad + 23);
+  ctx.fillText('TRYONME · 데모 모드 (API 키 미설정)', pad + 14, pad + 23);
 
   return canvas.toDataURL('image/jpeg', 0.9);
 }
@@ -161,19 +249,85 @@ function roundedRect(ctx, x, y, w, h, r) {
 
 // ---------------- components ----------------
 
-function Nav() {
+function Nav({ onOpenSettings, hasKey }) {
   return (
     <nav className="nav-inner" style={{ maxWidth: 1240, margin: '0 auto', padding: '22px 32px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', position: 'relative', zIndex: 10 }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
         <div style={{ width: 30, height: 30, borderRadius: 9, background: ACCENT.hex, display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', fontSize: 14, fontWeight: 700, letterSpacing: '-0.02em' }}>T</div>
-        <span style={{ fontSize: 17, fontWeight: 700, letterSpacing: '-0.02em' }}>TRYONYOU</span>
+        <span style={{ fontSize: 17, fontWeight: 700, letterSpacing: '-0.02em' }}>TRYONME</span>
         <span style={{ fontSize: 11, color: TEXT_FAINT, marginLeft: 6, padding: '3px 8px', borderRadius: 999, background: '#efeae2', fontWeight: 500 }}>BETA</span>
       </div>
-      <div style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
-        <a href="https://github.com/geonhee15/tryonyou" target="_blank" rel="noopener" style={{ fontSize: 14, color: '#5a5148', textDecoration: 'underline', textDecorationThickness: 1, textUnderlineOffset: 4 }}>GitHub</a>
+      <div style={{ display: 'flex', gap: 18, alignItems: 'center' }}>
+        <button
+          onClick={onOpenSettings}
+          title="FASHN AI 키 설정"
+          style={{ background: 'transparent', border: 'none', cursor: 'pointer', padding: '4px 8px', fontSize: 13, color: hasKey ? ACCENT.hex : '#5a5148', display: 'inline-flex', alignItems: 'center', gap: 6, fontFamily: 'inherit' }}
+        >
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="3" />
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 1 1-4 0v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 1 1 0-4h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33h0a1.65 1.65 0 0 0 1-1.51V3a2 2 0 1 1 4 0v.09a1.65 1.65 0 0 0 1 1.51h0a1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82v0a1.65 1.65 0 0 0 1.51 1H21a2 2 0 1 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z" />
+          </svg>
+          {hasKey ? 'AI 연결됨' : 'AI 설정'}
+        </button>
+        <a href="https://github.com/geonhee15/tryonme" target="_blank" rel="noopener" style={{ fontSize: 14, color: '#5a5148', textDecoration: 'underline', textDecorationThickness: 1, textUnderlineOffset: 4 }}>GitHub</a>
         <a href="#try" style={{ fontSize: 14, color: '#fff', background: '#1a1a1a', padding: '8px 14px', borderRadius: 8, textDecoration: 'none', fontWeight: 500 }}>입혀보기 →</a>
       </div>
     </nav>
+  );
+}
+
+function SettingsModal({ open, onClose, currentKey, onSave }) {
+  const [val, setVal] = useState(currentKey || '');
+  useEffect(() => { if (open) setVal(currentKey || ''); }, [open, currentKey]);
+  if (!open) return null;
+  return (
+    <div
+      onClick={onClose}
+      style={{ position: 'fixed', inset: 0, background: 'rgba(20,16,12,0.55)', backdropFilter: 'blur(6px)', zIndex: 100, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: 20, animation: 'fadeUp 0.2s ease' }}
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        style={{ background: '#fff', borderRadius: 20, padding: 28, maxWidth: 480, width: '100%', boxShadow: '0 40px 80px -20px rgba(0,0,0,0.40)' }}
+      >
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: 8 }}>
+          <h3 style={{ margin: 0, fontSize: 20, fontWeight: 700, letterSpacing: '-0.02em', color: ACCENT.ink }}>AI 엔진 설정</h3>
+          <button onClick={onClose} style={{ background: 'transparent', border: 'none', cursor: 'pointer', fontSize: 22, color: TEXT_FAINT, padding: 0, lineHeight: 1, fontFamily: 'inherit' }} aria-label="닫기">×</button>
+        </div>
+        <p style={{ margin: '4px 0 18px', fontSize: 13, color: TEXT_MUTED, lineHeight: 1.6 }}>
+          <strong style={{ color: ACCENT.ink }}>FASHN AI</strong> — 현존 최고 수준의 가상 피팅 모델 (tryon-v1.6) 입니다.
+          키는 브라우저(localStorage)에만 저장되며 서버로 전송되지 않습니다.
+        </p>
+        <label style={{ fontSize: 12, color: TEXT_FAINT, fontWeight: 600, letterSpacing: '0.08em', textTransform: 'uppercase' }}>FASHN API KEY</label>
+        <input
+          type="password"
+          value={val}
+          onChange={(e) => setVal(e.target.value)}
+          placeholder="fa-..."
+          style={{ marginTop: 6, width: '100%', padding: '12px 14px', border: `1px solid ${BORDER}`, borderRadius: 12, fontSize: 14, fontFamily: 'inherit', outline: 'none', background: '#faf7f2' }}
+          autoFocus
+        />
+        <div style={{ marginTop: 10, fontSize: 12, color: TEXT_FAINT, lineHeight: 1.55 }}>
+          키 발급: <a href="https://app.fashn.ai/api" target="_blank" rel="noopener" style={{ color: ACCENT.hex }}>app.fashn.ai/api</a>
+          {' · '}키가 없으면 <strong style={{ color: '#5a5148' }}>데모 모드</strong>로 동작합니다.
+        </div>
+        <div style={{ display: 'flex', gap: 10, marginTop: 20, justifyContent: 'flex-end' }}>
+          {currentKey && (
+            <button
+              onClick={() => { onSave(''); onClose(); }}
+              style={{ background: 'transparent', border: 'none', color: TEXT_MUTED, fontSize: 13, cursor: 'pointer', padding: '10px 12px', fontFamily: 'inherit' }}
+            >키 삭제</button>
+          )}
+          <button
+            onClick={onClose}
+            style={{ background: '#f0ebe2', border: 'none', color: '#1a1a1a', borderRadius: 10, padding: '10px 18px', fontSize: 13, fontWeight: 600, cursor: 'pointer', fontFamily: 'inherit' }}
+          >취소</button>
+          <button
+            onClick={() => { onSave(val.trim()); onClose(); }}
+            style={{ background: ACCENT.hex, border: 'none', color: '#fff', borderRadius: 10, padding: '10px 18px', fontSize: 13, fontWeight: 700, cursor: 'pointer', fontFamily: 'inherit' }}
+          >저장</button>
+        </div>
+      </div>
+    </div>
   );
 }
 
@@ -396,13 +550,15 @@ function Spinner({ size = 18, color = '#fff' }) {
   );
 }
 
-function ResultPanel({ result, loading, error, photoPresent }) {
+function ResultPanel({ result, loading, error, photoPresent, progressMsg, usingAI }) {
   if (loading) {
     return (
       <div style={{ borderRadius: 22, overflow: 'hidden', background: '#fff', border: `1px solid ${BORDER}`, minHeight: 460, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 28, textAlign: 'center' }}>
         <Spinner size={28} color={ACCENT.hex} />
-        <div style={{ fontSize: 15, fontWeight: 600, marginTop: 18, color: ACCENT.ink }}>입혀보는 중…</div>
-        <div style={{ fontSize: 13, color: TEXT_MUTED, marginTop: 6 }}>잠깐만요, 보통 10~20초 걸려요.</div>
+        <div style={{ fontSize: 15, fontWeight: 600, marginTop: 18, color: ACCENT.ink }}>{progressMsg || '입혀보는 중…'}</div>
+        <div style={{ fontSize: 13, color: TEXT_MUTED, marginTop: 6 }}>
+          {usingAI ? 'FASHN AI · 보통 10~30초 걸려요.' : '데모 합성 중 (FASHN 키 미설정).'}
+        </div>
       </div>
     );
   }
@@ -441,8 +597,11 @@ function App() {
   const [customPrompt, setCustomPrompt] = useState('');
   const [result, setResult] = useState(null);
   const [running, setRunning] = useState(false);
+  const [progressMsg, setProgressMsg] = useState('');
   const [error, setError] = useState('');
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const [settingsOpen, setSettingsOpen] = useState(false);
+  const [fashnKey, setFashnKeyState] = useState(getFashnKey());
 
   const tops = products.tops || [];
   const selectedItems = useMemo(
@@ -481,12 +640,14 @@ function App() {
     }
     setError('');
     setRunning(true);
+    setProgressMsg(fashnKey ? '입혀보는 중…' : '데모 합성 중…');
     setResult(null);
     try {
       const out = await runTryOn({
         userPhotoDataUrl: photo,
         selectedItems,
         customPrompt: customPrompt.trim(),
+        onProgress: setProgressMsg,
       });
       setResult(out);
       setTimeout(() => {
@@ -494,9 +655,10 @@ function App() {
       }, 60);
     } catch (e) {
       console.error(e);
-      setError('처리 중 문제가 생겼어요. 잠시 후 다시 시도해 주세요.');
+      setError(e?.message || '처리 중 문제가 생겼어요. 잠시 후 다시 시도해 주세요.');
     } finally {
       setRunning(false);
+      setProgressMsg('');
     }
   };
 
@@ -504,7 +666,13 @@ function App() {
 
   return (
     <div style={{ minHeight: '100vh', background: BG, color: '#1a1a1a', position: 'relative', overflow: 'hidden' }}>
-      <Nav />
+      <Nav onOpenSettings={() => setSettingsOpen(true)} hasKey={!!fashnKey} />
+      <SettingsModal
+        open={settingsOpen}
+        onClose={() => setSettingsOpen(false)}
+        currentKey={fashnKey}
+        onSave={(k) => { setFashnKey(k); setFashnKeyState(k); }}
+      />
 
       {/* HERO */}
       <section className="section" style={{ maxWidth: 1240, margin: '0 auto', padding: '40px 32px 28px' }} id="try">
@@ -612,7 +780,7 @@ function App() {
                 minWidth: 200, justifyContent: 'center',
               }}
             >
-              {running ? <><Spinner /> 입혀보는 중…</> : <>입혀보기 →</>}
+              {running ? <><Spinner /> {progressMsg || '입혀보는 중…'}</> : <>{fashnKey ? '입혀보기 (AI) →' : '입혀보기 →'}</>}
             </button>
           </div>
           {error && (
@@ -628,10 +796,10 @@ function App() {
             <div style={{ fontSize: 12, color: TEXT_FAINT, letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 600, marginBottom: 8 }}>RESULT</div>
             <h2 style={{ margin: '0 0 20px', fontSize: 24, fontWeight: 700, letterSpacing: '-0.025em', color: ACCENT.ink }}>입혀본 모습</h2>
             <div style={{ maxWidth: 720, margin: '0 auto' }}>
-              <ResultPanel result={result} loading={running} error={error} photoPresent={!!photo} />
+              <ResultPanel result={result} loading={running} error={error} photoPresent={!!photo} progressMsg={progressMsg} usingAI={!!fashnKey} />
               {result && (
                 <div style={{ display: 'flex', justifyContent: 'center', gap: 10, marginTop: 16, flexWrap: 'wrap' }}>
-                  <a href={result} download="tryonyou.jpg" style={{ background: '#fff', border: `1px solid ${BORDER}`, color: '#1a1a1a', padding: '10px 18px', borderRadius: 10, fontSize: 13, fontWeight: 600, textDecoration: 'none' }}>다운로드</a>
+                  <a href={result} download="tryonme.jpg" style={{ background: '#fff', border: `1px solid ${BORDER}`, color: '#1a1a1a', padding: '10px 18px', borderRadius: 10, fontSize: 13, fontWeight: 600, textDecoration: 'none' }}>다운로드</a>
                   <button onClick={() => { setResult(null); setSelectedIds([]); setCustomPrompt(''); window.scrollTo({ top: 0, behavior: 'smooth' }); }} style={{ background: 'transparent', border: 'none', color: TEXT_MUTED, fontSize: 13, fontFamily: 'inherit', cursor: 'pointer', textDecoration: 'underline', textUnderlineOffset: 3 }}>다른 옷 입혀보기</button>
                 </div>
               )}
@@ -641,10 +809,10 @@ function App() {
       </section>
 
       <footer style={{ borderTop: `1px solid ${BORDER}`, padding: '28px 32px', maxWidth: 1240, margin: '0 auto', display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: 12, color: TEXT_FAINT, flexWrap: 'wrap', gap: 12 }}>
-        <div>© 2026 TRYONYOU · 베타</div>
+        <div>© 2026 TRYONME · 베타 · <a href="https://tryonme.kimkim.io" style={{ color: TEXT_FAINT, textDecoration: 'none' }}>tryonme.kimkim.io</a></div>
         <div style={{ display: 'flex', gap: 18 }}>
           <a href="https://kimkim.io" style={{ color: TEXT_FAINT, textDecoration: 'none' }}>kimkim.io</a>
-          <a href="https://github.com/geonhee15/tryonyou" style={{ color: TEXT_FAINT, textDecoration: 'none' }}>GitHub</a>
+          <a href="https://github.com/geonhee15/tryonme" style={{ color: TEXT_FAINT, textDecoration: 'none' }}>GitHub</a>
         </div>
       </footer>
     </div>

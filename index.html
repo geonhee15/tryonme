@@ -431,6 +431,8 @@ function ResultPanel({ result, loading, error, photoPresent }) {
 
 // ---------------- main app ----------------
 
+const PAGE_SIZE = 12;
+
 function App() {
   const { products, loading: catalogLoading } = useProducts();
   const [photo, setPhoto] = useState(null);
@@ -440,6 +442,7 @@ function App() {
   const [result, setResult] = useState(null);
   const [running, setRunning] = useState(false);
   const [error, setError] = useState('');
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
 
   const tops = products.tops || [];
   const selectedItems = useMemo(
@@ -455,6 +458,12 @@ function App() {
       return hay.includes(q);
     });
   }, [tops, search]);
+
+  // Reset paging whenever the filter changes.
+  useEffect(() => { setVisibleCount(PAGE_SIZE); }, [search]);
+
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = filtered.length > visibleCount;
 
   const toggle = useCallback((p) => {
     setSelectedIds(prev => prev.includes(p.id) ? prev.filter(id => id !== p.id) : [...prev, p.id]);
@@ -550,11 +559,32 @@ function App() {
               "{search}" 와 맞는 제품이 없어요. 아래에서 직접 설명해 보세요.
             </div>
           ) : (
-            <div className="catalog-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14 }}>
-              {filtered.map(p => (
-                <ProductCard key={p.id} product={p} selected={selectedIds.includes(p.id)} onToggle={toggle} />
-              ))}
-            </div>
+            <>
+              <div className="catalog-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 14 }}>
+                {visible.map(p => (
+                  <ProductCard key={p.id} product={p} selected={selectedIds.includes(p.id)} onToggle={toggle} />
+                ))}
+              </div>
+              <div style={{ marginTop: 22, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 8 }}>
+                <div style={{ fontSize: 12, color: TEXT_FAINT, fontWeight: 500 }}>
+                  {Math.min(visibleCount, filtered.length).toLocaleString()} / {filtered.length.toLocaleString()}
+                </div>
+                {hasMore && (
+                  <button
+                    onClick={() => setVisibleCount(c => c + PAGE_SIZE)}
+                    style={{
+                      background: '#fff', color: '#1a1a1a',
+                      border: `1px solid ${BORDER}`, borderRadius: 999,
+                      padding: '10px 22px', fontSize: 13, fontWeight: 600, fontFamily: 'inherit',
+                      cursor: 'pointer',
+                      boxShadow: '0 2px 8px rgba(0,0,0,0.03)',
+                    }}
+                  >
+                    더보기 {Math.min(PAGE_SIZE, filtered.length - visibleCount)}개 ↓
+                  </button>
+                )}
+              </div>
+            </>
           )}
 
           <SelectedBar

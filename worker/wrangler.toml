@@ -6,7 +6,7 @@ compatibility_date = "2026-05-20"
 # wrangler kv:namespace create RATE_LIMIT
 [[kv_namespaces]]
 binding = "RATE_LIMIT"
-id = "REPLACE_WITH_KV_ID"
+id = "5a8d0202187641618bdda02d76e46054"
 
 # Custom domain — bind tryonme-api.kimkim.io to this Worker in the
 # Cloudflare dashboard (Workers & Pages → tryonme-api → Settings → Triggers).

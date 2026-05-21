@@ -104,12 +104,20 @@ const TEXT_FAINT = "#9a9187";
 // ---------------- catalog ----------------
 
 function useProducts() {
-  const [data, setData] = useState({ tops: [], bottoms: [], shoes: [] });
+  const [data, setData] = useState({ tops: [], bottoms: [], shoes: [], eyewear: [] });
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     fetch('products.json')
       .then(r => r.json())
-      .then(d => { setData({ tops: d.tops || [], bottoms: d.bottoms || [], shoes: d.shoes || [] }); setLoading(false); })
+      .then(d => {
+        setData({
+          tops: d.tops || [],
+          bottoms: d.bottoms || [],
+          shoes: d.shoes || [],
+          eyewear: d.eyewear || [],
+        });
+        setLoading(false);
+      })
       .catch(() => setLoading(false));
   }, []);
   return { products: data, loading };
@@ -504,7 +512,7 @@ function CategoryTabs({ active, onChange, counts }) {
     { id: 'tops', label: '상의', ready: true },
     { id: 'bottoms', label: '하의', ready: true },
     { id: 'shoes', label: '신발', ready: true },
-    { id: 'eyewear', label: '안경', ready: false },
+    { id: 'eyewear', label: '안경', ready: true },
   ];
   return (
     <div style={{ display: 'flex', gap: 6, flexWrap: 'wrap' }}>
@@ -702,7 +710,12 @@ function App() {
 
   const [category, setCategory] = useState('tops');
   const allProducts = useMemo(
-    () => [...(products.tops || []), ...(products.bottoms || []), ...(products.shoes || [])],
+    () => [
+      ...(products.tops || []),
+      ...(products.bottoms || []),
+      ...(products.shoes || []),
+      ...(products.eyewear || []),
+    ],
     [products],
   );
   const currentList = products[category] || [];
@@ -710,7 +723,9 @@ function App() {
     tops: (products.tops || []).length,
     bottoms: (products.bottoms || []).length,
     shoes: (products.shoes || []).length,
+    eyewear: (products.eyewear || []).length,
   };
+  const totalCount = counts.tops + counts.bottoms + counts.shoes + counts.eyewear;
 
   const selectedItems = useMemo(
     () => allProducts.filter(p => selectedIds.includes(p.id)),
@@ -797,7 +812,7 @@ function App() {
               사진 한 장 → <span style={{ color: ACCENT.hex }}>그 옷 그대로.</span>
             </h1>
             <div style={{ fontSize: 13, color: TEXT_MUTED, marginTop: 6 }}>
-              실제 브랜드 169 제품. 다중 선택 + 직접 설명 가능.
+              실제 브랜드 {totalCount.toLocaleString()} 제품. 다중 선택 + 직접 설명 가능.
             </div>
           </div>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 10, alignItems: 'flex-end' }}>
@@ -881,7 +896,7 @@ function App() {
         <section className="workbench-main" style={{ minWidth: 0 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 12, marginBottom: 14, flexWrap: 'wrap' }}>
             <div style={{ fontSize: 11, color: TEXT_FAINT, letterSpacing: '0.14em', textTransform: 'uppercase', fontWeight: 600 }}>
-              카탈로그 · {({ tops: '상의', bottoms: '하의', shoes: '신발' })[category]} · {filtered.length.toLocaleString()}개
+              카탈로그 · {({ tops: '상의', bottoms: '하의', shoes: '신발', eyewear: '안경' })[category]} · {filtered.length.toLocaleString()}개
             </div>
             <SearchBar value={search} onChange={setSearch} />
           </div>
